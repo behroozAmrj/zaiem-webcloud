@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.10.2.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#data").click(function () {
+                $.ajax({
+                    type: "POST",
+                    url: "/Services/StorageManagement.asmx/GetAllItems",
+                    data: "{}",
+                    contentType: "application/json;charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+                        $.each(data.d, function (index, value) {
+
+                            $("#list").append(value.Name  + '<br/>');
+                        });
+                        //alert(data.d);
+                    }
+                });
+            });
+
+        });
+    </script>
+
+</head>
+<body>
+    <input type="button" value="data" id="data" /><br />
+    <div id="list"></div>
+</body>
+</html>

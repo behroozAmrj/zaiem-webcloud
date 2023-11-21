@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="../Scripts/jquery-1.10.2.js"></script>
+	<link href="../Design/Elements.css" rel="stylesheet" />    
+	<script type="application/javascript">
+    	    var appname = "NotePad";
+    	    var classname = "FileManager";
+    	    var methodname = "Save";
+    	     	    
+    	   var Type = "POST";
+    	    
+            //Url = "http://localhost:1819/Ping.svc/Pingm";
+            //Url = "http://localhost:1919/RequestProxy.svc/RequestCenter";
+           var Url = "../../../Services/GateWayService.asmx/Execute_Method";
+
+         /*   Data = JSON.stringify({AppName : appname ,
+            						ClassName : classname,
+            						MethodName :methodname ,
+            						Params :params});*/
+            ContentType = "application/json; charset=utf-8";
+            DataType = "json";
+            ProcessData = false;        
+    	$(document).ready(function(){
+    		$("#savebtn").click(function(){
+    			var text = $("#note").val();
+			    var fileName = $("#fileName").val();
+			    if (fileName == "")
+			    	fileName = "note1.txt"
+			    params = [fileName,
+    	    			  "NotePad",
+    	    			   text];
+
+			    Data = JSON.stringify({AppName : appname ,
+            						ClassName : classname,
+            						MethodName :methodname ,
+            						Params :params});
+
+			    $.ajax({
+                type: Type, //GET or POST or PUT or DELETE verb
+                url: Url, // Location of the service
+                data: Data, //Data sent to server
+                contentType: ContentType, // content type sent to server
+                dataType: DataType, //Expected data format from server
+                 //True or False
+                success: function (msg) {//On Successfull service call
+
+                    //alert(msg.PingResult);
+                    $("#msgbox").html(msg.Execute_MethodResult);
+                },
+                error: function (result) {
+                    alert(' [Error] ' + result.d);
+                }// When Service call fails
+            });
+    		
+    		});
+    	});
+    </script>
+    
+</head>
+<body>
+	<table>
+		<tr>
+			<td><span>file name :</span></td>
+			<td><input type="text" id="fileName" /></td>
+		</tr>
+		<tr>
+			<td><span>path :</span></td>
+			<td><input type="text" id="path" /></td>
+		</tr>
+		<tr>
+			<td><input type="button" value="SaveText" id="savebtn"  /></td>
+		</tr>
+	</table>
+	<div>
+		<textarea id="note" ></textarea>	
+	</div>
+    <div>
+         
+    </div>
+    <div id="msgbox"></div>
+</body>
+</html>

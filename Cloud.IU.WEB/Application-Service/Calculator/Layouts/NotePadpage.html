@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="../Scripts/jquery-1.10.2.js"></script>
+    <script type="application/javascript">
+    	    var appname = "NotePad";
+    	    var classname = "FileManager";
+    	    var methodname = "Save";
+    	    var params = ["note.txt",
+    	    			  "NotePad",
+    	    			  "sdgsdgsdgsdfgsdgsdgsdfg"];
+    	    
+    	    Type = "POST";
+    	    
+            //Url = "http://localhost:1819/Ping.svc/Pingm";
+            //Url = "http://localhost:1919/RequestProxy.svc/RequestCenter";
+            Url = "../../../Services/GateWayService.svc/Execute_Method";
+            Data = JSON.stringify({AppName : appname ,
+            						ClassName : classname,
+            						MethodName :methodname ,
+            						Params :params});
+            ContentType = "application/json; charset=utf-8";
+            DataType = "json";
+            ProcessData = false;        
+    	$(document).ready(function(){
+    		$("#savebtn").click(function(){
+    			var text = $("#note").val();
+			    params = ["note.txt",
+    	    			  "NotePad",
+    	    			  text];
+
+			    Data = JSON.stringify({AppName : appname ,
+            						ClassName : classname,
+            						MethodName :methodname ,
+            						Params :params});
+
+			    $.ajax({
+                type: Type, //GET or POST or PUT or DELETE verb
+                url: Url, // Location of the service
+                data: Data, //Data sent to server
+                contentType: ContentType, // content type sent to server
+                dataType: DataType, //Expected data format from server
+                processdata: ProcessData, //True or False
+                success: function (msg) {//On Successfull service call
+
+                    //alert(msg.PingResult);
+                    $("#msgbox").html(msg.Execute_MethodResult);
+                },
+                error: function (result) {
+                    alert(' [Error] ' + result);
+                }// When Service call fails
+            });
+    		
+    		});
+    	});
+    </script>
+    
+</head>
+<body>
+	<div>
+		<textarea id="note" style="height:400px; width:400px"></textarea>	
+	</div>
+    <div>
+         <input type="button" value="SaveText" id="savebtn"  />
+    </div>
+    <div id="msgbox"></div>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>VMLoadMetroApps</title>
+    <style>
+        html, body, iframe {
+            height: 100%;
+            width: 100%;
+            border-style: none;
+        }
+
+        html, body {
+            overflow: hidden;
+            margin-left: 0px;
+        }
+
+        #header {
+            width: 100%;
+            height: 80px;
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    @if (ViewBag.dependence == "sh")
+    {
+        <div id="header">
+            <a href="/Start/Start_Screen/@ViewBag.sessionID/@ViewBag.userID" title="start menu">
+                <img src="/images/metro_start.png" style="height:70px" />
+            </a>
+
+            <a href="/Start/logOut/@ViewBag.sessionID/@ViewBag.userID" title="log out"><img src="/images/logout.png" /></a>
+        </div>
+        <hr />
+    }
+    @if (!String.IsNullOrEmpty(ViewBag.appName))
+    {
+
+        <iframe src="@ViewBag.appName" />
+    }
+    else
+    {
+        <label>no URL</label>
+    }
+
+
+
+
+</body>
+</html>

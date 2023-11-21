@@ -1,0 +1,26 @@
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\bin\OODBMS-PowerDB.dll
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\bin\OODBMS-PowerDB.pdb
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\bin\OODBMSDataLib.dll
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\bin\SocketLib.dll
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\bin\OODBMSDataLib.pdb
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\bin\SocketLib.pdb
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.dll
+C:\Users\Morteza\Desktop\OODBMS\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.pdb
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\bin\OODBMS-PowerDB.dll
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\bin\OODBMS-PowerDB.pdb
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\bin\OODBMSDataLib.dll
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\bin\SocketLib.dll
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\bin\OODBMSDataLib.pdb
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\bin\SocketLib.pdb
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.dll
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.pdb
+E:\CRC Projects\OODBMS\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.csprojResolveAssemblyReference.cache
+E:\CRC Projects\Dic\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.csprojResolveAssemblyReference.cache
+E:\CRC Projects\Dic\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.dll
+E:\CRC Projects\Dic\OODBMS-PowerDB\obj\Debug\OODBMS-PowerDB.pdb
+E:\CRC Projects\Dic\OODBMS-PowerDB\bin\OODBMS-PowerDB.dll.config
+E:\CRC Projects\Dic\OODBMS-PowerDB\bin\OODBMS-PowerDB.pdb
+E:\CRC Projects\Dic\OODBMS-PowerDB\bin\SocketLib.dll
+E:\CRC Projects\Dic\OODBMS-PowerDB\bin\OODBMSDataLib.pdb
+E:\CRC Projects\Dic\OODBMS-PowerDB\bin\SocketLib.pdb

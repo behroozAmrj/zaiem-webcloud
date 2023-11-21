@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/Content/Elemet.css" rel="stylesheet" />
+    <link href="~/Content/Sites.css" rel="stylesheet" />
+    @*<script type="text/javascript">
+            $(document).ready(function () {
+                $(".imgIcon").click(function () {
+
+                    //var value = $(this).find(".titleContainer > input[type='hidden']").val();
+                    alert('ok');
+
+                });
+
+            });
+        </script>*@
+</head>
+@{
+    if (ViewBag.bgimage != null)
+    {
+        <body style="background-image:url('../../../Images/@ViewBag.bgimage')">
+            <div style="overflow:hidden">
+                @RenderBody()
+            </div>
+        </body>
+
+    }
+    else
+    {
+        <body oncontextmenu="return false">
+            <div style="overflow:hidden">
+                @RenderBody()
+            </div>
+        </body>
+
+    }
+}
+
+
+</html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="first.aspx"  title="TestApplication" />
+  <image src="start_icon.png" />
+  <APIS>
+    <lib filename="core.dll"/>
+    <lib filename="apis.dll"/>
+    <lib filename="code.dll"/>
+  </APIS>
+</applicationConfig>

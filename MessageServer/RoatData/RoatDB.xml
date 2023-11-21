@@ -1,0 +1,7 @@
+<Services>
+  <service serviceName="proxy" URL="http://localhost:9090/router/" />
+  <service serviceName="chat" URL="http://localhost:4558/" />
+  <service serviceName="webcloud" URL="http://localhost:5146/gateway/" />
+  <service serviceName="RBSManagement" URL="http://localhost:9092/" />
+
+</Services>

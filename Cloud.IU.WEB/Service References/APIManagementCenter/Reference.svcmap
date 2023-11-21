@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="75a6b7c3-a78d-4b79-b49c-c8e5e251083a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5146/Services/APIManagementService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="APIManagementService.xsd" MetadataType="Schema" ID="93eb6d86-bc64-4a86-8882-21f61126a8e6" SourceId="1" SourceUrl="http://localhost:5146/Services/APIManagementService.svc?xsd=xsd0" />
+    <MetadataFile FileName="APIManagementService1.xsd" MetadataType="Schema" ID="de64bde2-5972-4986-acdb-ca166217d61f" SourceId="1" SourceUrl="http://localhost:5146/Services/APIManagementService.svc?xsd=xsd1" />
+    <MetadataFile FileName="APIManagementService.disco" MetadataType="Disco" ID="200f3bb0-9d11-4fb1-8be1-f2102919ccd4" SourceId="1" SourceUrl="http://localhost:5146/Services/APIManagementService.svc?disco" />
+    <MetadataFile FileName="APIManagementService.wsdl" MetadataType="Wsdl" ID="9ce8f003-8feb-4f5b-b74c-3bd9e1541292" SourceId="1" SourceUrl="http://localhost:5146/Services/APIManagementService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

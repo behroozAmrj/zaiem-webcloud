@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="E:\CRC Projects\OODBMS\PrecompiledWeb\OODBMSWebservice" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/OODBMS-PowerDB.dll" publishTime="08/30/2013 20:24:19" />
+    <file relUrl="HelloWorld.xml" publishTime="04/08/2013 18:03:51" />
+    <file relUrl="bin/OODBMSDataLib.pdb" publishTime="08/19/2013 17:18:50" />
+    <file relUrl="Dictionary.xml" publishTime="04/08/2013 18:03:52" />
+    <file relUrl="Service.asmx" publishTime="04/08/2013 18:06:41" />
+    <file relUrl="Web.config" publishTime="08/18/2013 16:15:54" />
+    <file relUrl="bin/OODBMS-PowerDB.pdb" publishTime="08/30/2013 20:24:19" />
+    <file relUrl="bin/OODBMSDataLib.dll" publishTime="08/19/2013 17:18:50" />
+    <file relUrl="ClassPhoneItem.xml" publishTime="04/08/2013 18:03:54" />
+    <file relUrl="bin/SocketLib.dll" publishTime="08/18/2013 16:15:28" />
+    <file relUrl="bin/SocketLib.pdb" publishTime="08/18/2013 16:15:28" />
+  </publishProfile>
+</publishData>

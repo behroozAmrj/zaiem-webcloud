@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<script src="jquery-1.10.2.js" type="text/javascript"></script>
+
+<style>
+
+html,body,
+iframe
+{
+	width:100%;
+	height:100%;
+}
+
+</style>
+
+<script type="text/javascript">
+
+
+$(document).ready(function (){
+	
+		
+
+
+});
+
+ $(window).load(function () {
+	var url = window.location.href;
+	var list = url.split('?');
+	if (list != null)
+	{
+		var params =  list[1].split('=');
+		var nextUrl = params[1];
+		$("#frameGate").attr("src" , 
+								nextUrl);
+	}
+ });
+
+
+</script>
+
+<style type="text/css">
+#wrapper
+{
+	width:400px;
+	min-height:50px;
+	background-color:silver;
+	margin:0 auto;
+}
+
+.container
+{
+	width:290px;
+	height:50px;
+	margin-top:10px;
+	background-color:gray;
+	position:absolute;
+}
+
+.container:hover
+{
+	border-color:green;
+	border-style:solid;
+}
+
+</style>
+</head>
+
+<body>
+
+	<iframe id="frameGate" src=""/>
+</body>
+
+</html>

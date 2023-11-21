@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>SayHelloToSomeOne</title>
+<link href="../Design/Sites.css" rel="stylesheet" />
+<script src="../Scripts/jquery-1.10.2.js"></script>
+<script>
+        //var Url = "../../../Services/GateWayService.svc/Execute_Method";
+        var Url = "../../../Services/GateWayService.asmx/Execute_Method";
+        var appname = "SampleRBD";
+        var classname = "CodeBehind";
+        var method = "SayHelloTo";
+        var type = "POST";
+        var datatype = "json";
+        var contenttype = "application/json;charset=utf-8";
+        var processData = false;
+       
+
+        $(document).ready(function () {
+            
+            function reSet()
+            {
+                $("#number").val(0);
+                
+            }
+            function toNumber(value)
+            {
+                return(parseInt(value));
+            }
+
+
+            function opration(preNumber, opration, number)
+            {
+                switch (opration)
+                {
+                    case '+': {
+
+
+                        var param = [parseInt(preNumber),
+                                    parseInt(number)];
+                        callService("Add",
+                                        param);
+                        return ("ok");
+                        break;
+                    }
+                    case '-': {
+
+                        var param = [parseInt(preNumber),
+                                    parseInt(number)];
+                        callService("Sub",
+                                     param);
+                        return ("ok");
+                        break;
+                    }
+                }
+            }
+
+            $("input[type='button']").click(function () {
+                var val = $(this).val();
+
+                switch (val)
+                {
+                    case '+': {
+                       
+                        var presign = $("#opration").val();
+                        if (presign == "")
+                        {
+                            $("#preNumber").val($("#number").val());
+                            $("#number").val(0);
+                            $("#opration").val("+");
+
+                        }
+                        else
+                        {
+                            var prenumber = $("#preNumber").val();
+                            var number = $("#number").val();
+                            var result = opration(prenumber,
+                                                     presign,
+                                                    number);
+                            
+                            $("#opration").val("+");
+                            $("#number").val(0);
+                            
+                        }
+                        break;
+                    }
+                    case '-': {
+                        var presign = $("#opration").val();
+                        if (presign == "") {
+                            $("#preNumber").val($("#number").val());
+                            $("#number").val(0);
+                            $("#opration").val("-");
+
+                        }
+                        else {
+                            var prenumber = $("#preNumber").val();
+                            var number = $("#number").val();
+                            var result = opration(prenumber,
+                                                   presign,
+                                                    number);
+                            $("#number").val(0);
+                           
+                            $("#opration").val("-");
+                           
+                        }
+                        break;
+                    }
+                    case "=":
+                        {
+                            var prenumber = $("#preNumber").val();
+                            var number = $("#number").val();
+                            var sing = $("#opration").val();
+                            if (prenumber != null)
+                            {
+                                if (number != null)
+                                {
+                                    if (sing != null)
+                                    {
+                                        var result = opration(prenumber,
+                                                                sing,
+                                                                number);
+                                        
+                                        $("#opration").val("");
+                                        $("#number").val("0");
+                                        $("#preNumber").val("0");
+                                    }
+                                }
+                                else
+                                {
+                                    $("#result").val(prenumber);
+                                }
+                            }
+                            else
+                            {
+                                   
+                            }
+                            break;
+                        }
+                    default:
+                        {
+                            var hres = $("#number").val();
+                            hres = parseFloat(hres) * 10;
+                            hres = hres + parseInt(val);
+
+                            $("#number").val(hres);
+                            $("#result").val(hres);
+                        }
+                }
+                    
+            });
+
+			$("#sendHello_btn").click(function(){
+				var value = $("#name_txt").val();
+				var param = [value];
+				callService(method,
+							param);
+				
+			});
+			
+            function callService(method , params)
+            {
+				console.log('calling Service Started . . . ');
+                var data = JSON.stringify({
+                    AppName: appname,
+                    ClassName: classname,
+                    MethodName: method,
+                    Params: params
+                });
+                $.ajax({
+                    type: type, //GET or POST or PUT or DELETE verb
+                    url: Url, // Location of the service
+                    data: data, //Data sent to server
+                    contentType: contenttype, // content type sent to server
+                    dataType: datatype, //Expected data format from server
+                    processdata: false, //True or Fal
+                    success: function (data)
+                    {
+                       var  result = data.d;
+                       $("#result").append(result);
+                       
+                    }
+                    });
+            }
+        });
+        function callService() {
+
+            
+            var data = JSON.stringify({
+                AppName: appname,
+                ClassName: classname,
+                MethodName: method,
+                Params: params
+            });
+            $.ajax({
+                type: type, //GET or POST or PUT or DELETE verb
+                url: Url, // Location of the service
+                data: data, //Data sent to server
+                contentType: contenttype, // content type sent to server
+                dataType: datatype, //Expected data format from server
+                processdata: false, //True or Fal
+                success: function (data)
+                {
+                    
+                }
+            });
+        }
+        $(window).load(function () {
+            $("#hresult").val(0);
+            $("#result").val(0);
+            //callService();
+        });
+    </script>
+</head>
+
+<body>
+<center>
+<div id="wrapper">
+	<spam>Enter a Name :<spam/> 
+	<input type="text" id="name_txt" name="name_txt"/><br/>
+	<input type="button" value="press"  id="sendHello_btn" name="sendHello_btn"/>
+	<div id="result"></div>
+</div>
+</center>
+</body>
+
+</html>

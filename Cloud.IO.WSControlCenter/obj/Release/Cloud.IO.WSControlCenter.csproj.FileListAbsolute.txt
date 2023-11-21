@@ -1,0 +1,11 @@
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\Cloud.IO.WSControlCenter.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\Cloud.IO.WSControlCenter.pdb
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\log4net.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\OS_SDK.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\log4net.xml
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\obj\Release\Cloud.IO.WSControlCenter.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\obj\Release\Cloud.IO.WSControlCenter.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\obj\Release\Cloud.IO.WSControlCenter.pdb
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\Release\Newtonsoft.Json.dll

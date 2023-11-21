@@ -1,0 +1,11 @@
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\Cloud.Core.Models.RBS.dll
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\Cloud.Core.Models.RBS.pdb
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\Cloud.IO.NetworkService.dll
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\OS_SDK.dll
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.Core.Models.RBS\bin\Release\Cloud.IO.NetworkService.pdb
+D:\APPs\Cloud\Cloud.Core.Models.RBS\obj\Release\Cloud.Core.Models.RBS.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.Core.Models.RBS\obj\Release\Cloud.Core.Models.RBS.dll
+D:\APPs\Cloud\Cloud.Core.Models.RBS\obj\Release\Cloud.Core.Models.RBS.pdb

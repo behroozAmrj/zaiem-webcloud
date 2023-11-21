@@ -1,0 +1,136 @@
+﻿
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>تشخیص هویت</title>
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery.signalR-1.1.3.js"></script>
+     <script src="/signalr/hubs"></script>
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <link href="~/Content/Elemet.css" rel="stylesheet" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var check = $.connection.Security;
+             $("html,body").on("mousemove", function () { $("#curtain").delay(400).slideUp(1000);   });
+            
+            $("#curtain").click(function () { $(this).slideUp(1000);});
+
+            $.connection.hub.start().done(function () {
+
+                $("input[type='button']").click(function () {
+                    console.log('login');
+                    var Msg = $("#Msg");
+                    Msg.text("");
+                    var isValid = 1;
+                    var empstr = '';
+                    $("#errorMsg").text(empstr);
+                    $("input[type='text'].element , input[type='password'].element ").each(function (index, value) {
+                        var val = $(value).val();
+                        if ((val == null) ||
+                            (val == ""))
+                        {
+                            var msg = ' مقدار ' + $(value).attr("title") + ' پرنشده ';
+                            $("#Msg").text(msg);
+                            isValid = 0;
+                            return (false);
+                        }
+
+                    });
+
+                    if (isValid == 0)
+                        return;
+                    var ConnectionID = $.connection.hub.id;
+                    $(this).attr("disabled",
+                                    "disabled");
+                    var UserName = $("#username").val();
+                    var Password = $("#password").val();
+                    var GroupName = $("#groupname").val();
+                    var CloudAddress = $("#cloudAddress").val();
+                    var SessionID = $("#sessionid").val();
+                    $("#preloaderbox").css("display",
+                                          "block");
+                    check.server.Login(UserName,
+                                       Password,
+                                       GroupName,
+                                       CloudAddress,
+                                       ConnectionID,
+                                       SessionID);
+                });
+
+            }); // end of button and connetion to server function 
+            check.client.response = function (credential) {
+                UIControl(0);
+                var msg = 'درخواست ورود شما مورد تایید قرار گرفت';
+                $("#Msg").text(msg);
+                var hostname = "http://" + location.hostname + ":" + location.port;
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Security/RegisterUserIDInSession",
+                    contentType: "application/json; chartset=utf-8",
+                    datatype: "json",
+                    data: JSON.stringify({
+                        userID: credential
+                    }),
+                    success: function (data) {
+                        window.location = hostname + "/vmmanagement/desktop/" + $("#sessionid").val() + "/" + credential;
+                    },
+                });
+
+                
+            }
+
+            check.client.onraiseError = function (msg) {
+                UIControl(0);
+                var Msg = $("#Msg");
+                Msg.text(msg);
+                $("login").removeAttr("disabled");
+                $("#submit").removeAttr("disabled");
+
+            }
+
+            function UIControl (command)
+            {
+                if (command == 1)
+                   $("#preloaderbox").css("display",
+                                         "block");
+                else
+                    $("#preloaderbox").css("display",
+                                            "none");
+            }
+
+        });  // end of document.ready function
+
+    </script>
+</head>
+<body style="background-color: silver; z-index: 10000; ">
+   
+    <input type="hidden" id="sessionid" value="@ViewBag.sessionid" />
+    <div id="curtain">
+    </div>
+    <div id="loginPanel">
+        <div id="imagebox">
+        </div>
+        <div id="loginbox">
+            <span id="Msg"></span>
+            <input id="username" class="element" value="bamiri1" title="نام کاربری" placeholder="User Name :نام کاربری" type="text"  />
+            <input id="password" class="element" value="123" title="کلمه عبور" placeholder="Password : کلمه عبور" type="password" />
+            <input id="cloudAddress" class="element" value="aa" title="cloud User Name" placeholder="Cloud UserName" type="text" />
+            <input id="groupname" class="element" value="123" placeholder="cloud Password" type="password" title="Cloud Password" />
+            <input id="submit" class="element" type="button" value="Login" />
+            <div id="preloaderbox" style="border-style:none">
+                <p id="pmsg">درخواست شما برای سرور ارسال شد</p>
+                <img src="~/images/294_1.png" style="margin-left:35px;" />
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

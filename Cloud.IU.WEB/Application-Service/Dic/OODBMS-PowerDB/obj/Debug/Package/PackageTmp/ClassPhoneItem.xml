@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassPhoneItem>
+  <Fields>
+    <Main>
+      <name type="1" />
+      <phone type="1" />
+    </Main>
+    <Extra>
+      <site type="1" />
+      <email type="1" />
+      <weblog type="1" />
+      <phone2 type="1" />
+      <website type="1" />
+    </Extra>
+  </Fields>
+  <Objects>
+
+    <object ID="1">
+      <name>morteza</name>
+      <phone>09153406694</phone>
+      <email>javan.it@gmail.com</email>
+      <site>www.msjavan.tk</site>
+      <weblog>www.javan.tk</weblog>
+    </object>
+    <object ID="2">
+      <name>
+      </name>
+      <phone>
+      </phone>
+      <website>http://crc.aut.ac.ir</website>
+    </object>
+    <object ID="3">
+      <name>
+      </name>
+      <phone>
+      </phone>
+    </object>
+    <object ID="4">
+      <name>
+      </name>
+      <phone>
+      </phone>
+    </object>
+    <object ID="5">
+      <name>
+      </name>
+      <phone>
+      </phone>
+    </object>
+    <object ID="6">
+      <name>
+      </name>
+      <phone>
+      </phone>
+    </object>
+    <object ID="7">
+      <name>
+      </name>
+      <phone>
+      </phone>
+    </object>
+	    <object ID="7">
+      <name>mm</name>
+      <phone>123</phone>
+      <phone2>12313123</phone2>
+    </object>
+    <object ID="8">
+      <name>aa</name>
+      <phone>124124</phone>
+    </object>
+  </Objects>
+</ClassPhoneItem>

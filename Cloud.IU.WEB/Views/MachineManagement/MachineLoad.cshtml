@@ -1,0 +1,85 @@
+﻿@model List<net.openstack.Core.Domain.Server>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MachineLoad</title>
+    <link href="~/Content/machine.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/machineScriptMGR.js"></script>
+    <script src="~/Scripts/errorPanel.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <style>
+        #panel {
+            background: none repeat scroll 0 0 white;
+            height: auto;
+            left: 1100px;
+            position: absolute;
+            top: -120px;
+            width: auto;
+            color: red;
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 10px;
+            list-style: none;
+            border-color: #f44336;
+            border-style: solid;
+            border-width: 0.5px;
+            box-shadow: 0 0 7px 2px #ef9a9a;
+            border-radius: 10px;
+            min-height: 20px;
+            min-width: 100px;
+            z-index:10000;
+        }
+    </style>
+</head>
+<body>
+    <input id="sessionID" type="hidden" value="@ViewBag.sessionID" />
+    <input id="userID" type="hidden" value="@ViewBag.userID" />
+    <div id="leftPanle">
+        <span id="title">Machine Management</span>
+        <ul id="tabPage">
+            <li class="page select">machines</li>
+
+        </ul>
+    </div>
+    <div id="header" class="wrapper">
+        @if (String.IsNullOrEmpty(ViewBag.dependence))
+        {
+            <a href="/Start/Start_Screen/chlbdxc2awwsizelg0ffoypu/d8ccf5a0be9c4a3ea5ca11a77716af7a" style="float:right" title="start menu">
+                <img src="/images/metro_start.png" style="height:70px">
+            </a>
+        }
+        <div class="headerItem">
+            <ul>
+                <li id="newMachine" class="newItem bg-green">+new</li>
+            </ul>
+        </div>
+    </div>
+    <div id="container" class="wrapper">
+        <div id="container_div">
+            <div id="topperGridPanel">
+            </div>
+            <div id="gridPanel">
+
+                @Html.Partial("MachineList",
+                                     @Model)
+            </div>
+        </div>
+    </div>
+    <div id="curtain" class="hide dialog"></div>
+    <div id="InsertMachine_div" class="hide dialog">
+        @Html.Partial("machineInsert")
+    </div>
+
+    <div id="loadProgress" class="hide dialog">
+        <img src="../../../Images/loadProgress.gif" />
+        <span>Loading please wait . . . </span>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1fb89ada-d836-40ed-82e8-24c1477fba2e" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8095/Repository.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Repository.xsd" MetadataType="Schema" ID="96a00fb5-547f-4a90-9364-7dbc41e4a9a6" SourceId="1" SourceUrl="http://localhost:8095/Repository.svc?xsd=xsd2" />
+    <MetadataFile FileName="Repository1.xsd" MetadataType="Schema" ID="b1e097f6-e33a-466c-bf59-7c5ca287949c" SourceId="1" SourceUrl="http://localhost:8095/Repository.svc?xsd=xsd0" />
+    <MetadataFile FileName="Repository.disco" MetadataType="Disco" ID="c0487c73-8d5b-4df8-baef-a676862b149a" SourceId="1" SourceUrl="http://localhost:8095/Repository.svc?disco" />
+    <MetadataFile FileName="Repository2.xsd" MetadataType="Schema" ID="bb96eef8-1a37-4b42-9a31-b9388c80fad5" SourceId="1" SourceUrl="http://localhost:8095/Repository.svc?xsd=xsd1" />
+    <MetadataFile FileName="Repository.wsdl" MetadataType="Wsdl" ID="ce6a5e2e-1bbb-4322-824f-6a552c6aec51" SourceId="1" SourceUrl="http://localhost:8095/Repository.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

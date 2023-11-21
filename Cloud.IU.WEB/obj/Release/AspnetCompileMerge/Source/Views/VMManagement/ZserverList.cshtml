@@ -1,0 +1,239 @@
+﻿@model  List<CRC_SDK.Classes.zServer>
+<fieldset>
+    <legend style="text-align:right;direction:rtl">سرور های موجود</legend>
+    @*<table id="zservertbl">
+            <tr>
+
+                <th>Name</th>
+                <th>Type</th>
+                <th>Status</th>
+            </tr>
+
+            @{
+                foreach (var rec in Model)
+                {
+                    <tr style="color:green">
+                        <td>
+                            <input type="hidden" value="@rec.ID" id="@rec.ID" />
+                            <a>
+                                <span class="hand" onclick="runMachine('@rec.ID' , '@rec.Name')" title="@rec.Name نمایش ماشین">@rec.Name</span>
+                            </a>
+                        </td>
+                        <td> <span>@rec.FlavorName</span></td>
+                        <td><span>@rec.Status</span></td>
+                        <td>
+                            <table width="50">
+                                <tr>
+                                    @switch (rec.Status.ToLower())
+                                    {
+                                        case "active":
+                                            {
+                                            <tr>
+                                                <td>
+
+                                                        <img onclick="delete_machine('@rec.ID' , '@rec.Name')"  class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+
+                                                </td>
+                                                <td>
+
+                                                        <img  class="opration hand" onclick="powerOnMachine('@rec.ID' , '@rec.Name')" title="@rec.Name  روشن کردن ماشین" src="~/images/start_icon.png" />
+
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+
+                                                        <img src="~/images/stop-normal-red-icon.png" onclick="terminateMachine('@rec.ID', '@rec.Name')"  class="opration hand" title="@rec.Name خاموش کردن ماشین" />
+
+                                                </td>
+                                                <td>
+
+                                                        <img src="~/images/Power_-_Restart.png" onclick="restartMachine('@rec.ID', '@rec.Name')"  class="opration hand" title="@rec.Name ریستارت کردن ماشین" />
+
+                                                </td>
+                                                <td>
+
+                                                        <img onclick="pauseMachine('@rec.ID','@rec.Name')" src="~/images/images.jpg" class="opration hand" title="@rec.Name کمث کردن ماشین" />
+
+                                                </td>
+
+                                            </tr>
+                                                break;
+                                            }
+                                        case "pause":
+                                            {
+                                                <tr>
+                                                    <td>
+
+                                                            <img src="~/images/stop-normal-red-icon.png" onclick="terminateMachine('@rec.ID', '@rec.Name')"  class="opration hand" title="@rec.Name خاموش کردن ماشین" />
+
+                                                    </td>
+
+                                                </tr>
+                                                <tr>
+                                                    <td><img src="~/images/Power_-_Restart.png" onclick="restartMachine('@rec.ID' , '@rec.Name')"  class="opration hand" title="@rec.Name ریستارت کردن ماشین" /></td>
+                                                    <td>
+                                                        <img onclick="delete_machine('@rec.ID' , '@rec.Name')"  class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+                                                    </td>
+                                                </tr>
+                                                break;
+                                            }
+                                        case "error":
+                                            {
+                                                <tr>
+                                                    <td>
+
+                                                            <img onclick="delete_machine('@rec.ID' , '@rec.Name')"  class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+
+                                                    </td>
+                                                </tr>
+                                                break;
+                                            }
+                                        case "buid":
+                                            { break; }
+                                        case "shutoff":
+                                            {
+                                                <tr>
+                                                    <td>
+
+                                                            <img onclick="delete_machine('@rec.ID' , '@rec.Name')"  class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+
+
+
+                                                    </td>
+                                                    <td>
+                                                            <img  class="opration hand" onclick="powerOnMachine('@rec.ID', '@rec.Name')" title="@rec.Name  روشن کردن ماشین" src="~/images/start_icon.png" />
+                                                    </td>
+                                                </tr>
+                                                break;
+                                            }
+                                        case "hard_reboot":
+                                            {
+                                                <tr>
+                                                    <td>
+                                                            <img onclick="delete_machine('@rec.ID' , '@rec.Name')"  class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+                                                    </td>
+                                                    <td>
+                                                        <img src="~/images/images.jpg"  class="opration hand" title="@rec.Name مکث کردن ماشین" />
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                        <img src="~/images/stop-normal-red-icon.png" onclick="terminateMachine('@rec.ID', '@rec.Name')"  class="opration hand" title="@rec.Name خاموش کردن ماشین" />
+                                                </tr>
+                                                break;
+                                            }
+                                    }
+
+                                </table>
+                            </td>
+                        </tr>
+                }
+            }
+        </table>*@
+    <div class="machinewrapper">
+        <div class="machineinfo">
+            <table class="infotbl">
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Status</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    @foreach (var rec in Model)
+    {
+        <div id="@rec.ID" class="machinewrapper">
+            <div class="machineinfo">
+                <table class="infotbl">
+                    <tr>
+                        <td>
+                            <input type="hidden" value="@rec.ID" id="@rec.ID" />
+                            <a>
+                                <span class="hand" onclick="showhide_OprationPanel('@rec.ID' , '@rec.Name')" title="@rec.Name نمایش ماشین">@rec.Name</span>
+                            </a>
+                        </td>
+                        <td><span>@rec.FlavorName</span></td>
+                        <td><span>@rec.Status</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="machineopration">
+                <table class="oprationtbl">
+                    <tr>
+                        @switch (rec.Status.ToLower())
+                        {
+                            case "active":
+                                {
+                                    <td>
+                                        <img onclick="playMachine('@rec.ID', '@rec.Name')" src="~/images/play.png" alt="اجرای ماشین" title="@rec.Name اجرای" class="opration hand" />
+                                    </td>
+                                    <td>
+                                        <img onclick="delete_machine('@rec.ID' , '@rec.Name')" class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+                                    </td>
+                                    <td>
+                                        <img class="opration hand" onclick="powerOnMachine('@rec.ID' , '@rec.Name')" title="@rec.Name  روشن کردن ماشین" src="~/images/start_icon.png" />
+                                    </td>
+                                    <td>
+                                        <img src="~/images/stop-normal-red-icon.png" onclick="terminateMachine('@rec.ID', '@rec.Name')" class="opration hand" title="@rec.Name خاموش کردن ماشین" />
+                                    </td>
+                                    <td>
+                                        <img src="~/images/Power_-_Restart.png" onclick="restartMachine('@rec.ID', '@rec.Name')" class="opration hand" title="@rec.Name ریستارت کردن ماشین" />
+                                    </td>
+                                    <td>
+                                        <img onclick="pauseMachine('@rec.ID','@rec.Name')" src="~/images/images.jpg" class="opration hand" title="@rec.Name کمث کردن ماشین" />
+                                    </td>
+                                    break;
+                                }
+                            case "pause":
+                                {
+                                    <td>
+                                        <img src="~/images/stop-normal-red-icon.png" onclick="terminateMachine('@rec.ID', '@rec.Name')" class="opration hand" title="@rec.Name خاموش کردن ماشین" />
+                                    </td>
+                                    <td><img src="~/images/Power_-_Restart.png" onclick="restartMachine('@rec.ID' , '@rec.Name')" class="opration hand" title="@rec.Name ریستارت کردن ماشین" /></td>
+                                    <td>
+                                        <img onclick="delete_machine('@rec.ID' , '@rec.Name')" class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+                                    </td>
+                                    break;
+                                }
+                            case "error":
+                                {
+                                    <td>
+                                        <img onclick="delete_machine('@rec.ID' , '@rec.Name')" class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+                                    </td>
+                                    break;
+                                }
+                            case "shutoff":
+                                {
+                                    <td>
+                                        <img onclick="delete_machine('@rec.ID' , '@rec.Name')" class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+                                    </td>
+                                    <td>
+                                        <img class="opration hand" onclick="powerOnMachine('@rec.ID', '@rec.Name')" title="@rec.Name  روشن کردن ماشین" src="~/images/start_icon.png" />
+                                    </td>
+                                    break;
+                                }
+                            case "hard_reboot":
+                                {
+                                    <td>
+                                        <img onclick="delete_machine('@rec.ID' , '@rec.Name')" class="opration hand" src="~/images/editing-delete-icon.png" alt="حذف" title="@rec.Name حذف" />
+                                    </td>
+                                    <td>
+                                        <img src="~/images/images.jpg" class="opration hand" title="@rec.Name مکث کردن ماشین" />
+                                    </td>
+                                    <td>
+                                        <img src="~/images/stop-normal-red-icon.png" onclick="terminateMachine('@rec.ID', '@rec.Name')" class="opration hand" title="@rec.Name خاموش کردن ماشین" />
+                                    </td>
+                                    break;
+                                }
+                            default: { break; }
+                        }
+                    </tr>
+                </table>
+            </div>
+        </div>
+    }
+    <div id="output">
+
+    </div>
+</fieldset>

@@ -1,0 +1,6 @@
+D:\APPs\Cloud\Cloud.IO.DataAccess\bin\Release\Cloud.IO.DataAccess.dll.config
+D:\APPs\Cloud\Cloud.IO.DataAccess\bin\Release\Cloud.IO.DataAccess.dll
+D:\APPs\Cloud\Cloud.IO.DataAccess\bin\Release\Cloud.IO.DataAccess.pdb
+D:\APPs\Cloud\Cloud.IO.DataAccess\obj\Release\Cloud.IO.DataAccess.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.IO.DataAccess\obj\Release\Cloud.IO.DataAccess.dll
+D:\APPs\Cloud\Cloud.IO.DataAccess\obj\Release\Cloud.IO.DataAccess.pdb

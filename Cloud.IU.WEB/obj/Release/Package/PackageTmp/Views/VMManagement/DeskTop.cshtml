@@ -1,0 +1,293 @@
+﻿@{
+    ViewBag.Title = "دسکتاپ";
+    Layout = "~/Views/Shared/VMLayoutPage.cshtml";
+}
+
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+<script src="~/Scripts/jquery.signalR-1.1.3.js"></script>
+<script src="/signalr/hubs"></script>
+<script src="~/Scripts/modernizr-2.6.2.js"></script>
+<script language="" src="~/Scripts/HCBuilder.js"></script>
+<script src="~/Scripts/jquery-ui.js"></script>
+<link href="~/Content/Elemet.css" rel="stylesheet" />
+<script type="text/javascript">
+    var desktops = $.connection.DeskTop;
+    var marginTop = 10;
+    var margineLeft = 15;
+    var colCount = 0;
+    var rowCount = 0;
+    var maxRow = 7;
+    var maxColumn = 10;
+    var colwidth = 80;
+    var containerHeight = 80;
+
+
+    function reSet() {
+        marginTop = 10;
+        margineLeft = 15;
+        colCount = 0;
+        rowCount = 0;
+        maxRow = 7;
+        maxColumn = 10;
+        colwidth = 80;
+        containerHeight = 80;
+    }
+
+    $(document).ready(function () {
+        
+        $("body").contextmenu(function () { console.log('context menu popuped');});
+        $("body").click(function (e) {
+            if (this == e.target)
+            {
+                $(".formControl").css("background-color",
+                          "white");
+                
+            }
+        });
+
+        var desktop = $.connection.DeskTop;
+        desktops = desktop;
+        var columncount = 0;
+        var itemsCount = 0;
+
+        $(".menuItemContent").click(function () {
+            var id = $(this).attr("id");
+            console.log(id);
+        });
+
+        //$("#trightPanel").hover(function () {
+        //                                $("#trightPanel").animate({ width: "+=100" }, function () { $(".tcontent").css("display", "block") });
+        //                                },
+        //                        function () {  $("#trightPanel").animate({ width: "-=100" }, function () { $(".tcontent").css("display", "none")}); }); // end of right panel hover function
+
+
+      /*  $.connection.DeskTop.client.pingOnclient = function (scond) {
+            document.title = scond;
+
+        }*/
+        
+
+        //this method execute whenever desktop loadedBack or refreshed
+        desktop.client.itemsLoad = function (itemList, rbsList) {
+            $(".container").remove();
+            reSet()
+            itemsCount = itemList.length;
+            columncount = parseInt(itemsCount / 10);
+            if (itemsCount % 10 > 0)
+                columncount++;
+            newDeskTopBuilder(itemList,
+                            columncount,
+                            itemsCount);
+
+            //  RBS application desktop items creation section
+
+
+            itemsCount = rbsList.length;
+            columncount = parseInt(itemsCount / 10);
+            if (itemsCount % 10 > 0)
+                columncount++;
+            newDeskTopBuilder(rbsList,
+                                columncount,
+                                itemsCount);
+
+
+        }
+        
+        // this method execute whenever user click on a desktop items [doWorkBack] and will run an item 
+        // so this method get data and value from server and render in pwindow
+        desktop.client.onClientBackResult = function (data, template, viewlist, type , title) {
+            if (data != null) {
+                // this run old design window
+                //var pwindow = $(divPopUpWindow(data));
+                //$("body").append(pwindow);
+
+
+                var pwindow = $(template);
+                var select = pwindow.find("select:eq(0)");
+                pwindow.click(function () {
+                    $(".pwrapper").css("z-index",
+                                    "1");
+                    $(this).css("z-index",
+                                    "10000");
+                });
+
+                if ((viewlist != null) &&
+                    (viewlist.length > 0))
+                    $.each(viewlist, function (index, value) {
+                        var option = '<option>' + value + '</option>';
+                        select.append(option);
+                    });
+
+
+                var pwindow = $(generateWindow(data,
+                                                template,
+                                                viewlist,
+                                                type,
+                                                title));
+
+
+                var iframe = pwindow.find("iframe:eq(0)");
+                if (iframe != null)
+                    iframe.focus();
+                $("body").append(pwindow.draggable());
+            }
+        }
+
+        desktop.client.pageRedirect = function (url) {
+            window.location = url;
+            
+        }
+        desktop.client.onMessageBack = function (data) {
+            alert(data);
+            //location.reload();
+        }
+
+        $(window).load(function () {
+            $.connection.hub.start().done(function () {
+                //$("body").fadeOut(1000).fadeIn(1000); // if want to use load test or stressTest u should use a loop in this section 
+                //for (var i = 0 ; i < 100 ; i++) {
+                    var sessionid = $("#sessionID").val();
+                    var userid = $("#userid").val();
+                    desktops.server.LoadDeskTop(userid);
+                
+            });
+        });
+
+        $(".menuItemContent > span").click(function () {
+            var itemname = $(this).parent().attr("id");
+            var userid = $("#userid").val();
+            //desktops.server.MenuItemContent(userid,
+            //                                itemName);
+
+            var xmr = new XMLHttpRequest();
+            xmr.open("POST", "/VMManagement/menuItem", true);
+            xmr.setRequestHeader("Content-Type", "application/json;");
+            xmr.send(JSON.stringify({ userID: userid, itemName: itemname }));
+
+            xmr.onload = function (data)
+            {
+                var text = data.target.responseText;
+                var list = JSON.parse(text);
+                var pwindow = $(generateWindow(list[0],
+                                               list[1],
+                                               list[2],
+                                               list[0],
+                                               list[4]));
+
+
+                var iframe = pwindow.find("iframe:eq(0)");
+                if (iframe != null)
+                    iframe.focus();
+                $("body").append(pwindow.draggable());
+            }
+
+        });
+
+    });// end of document.ready
+
+    function newDeskTopBuilder(itemsList, columnCount, itemsCount) {
+        var i = 0;
+        while (i <= itemsList.length - 1) {
+            if (rowCount > maxRow) {
+                rowCount = 0;
+                if (colCount > maxColumn)
+                    return;
+                else
+                    colCount++;
+            }
+
+            var top = rowCount * (marginTop + containerHeight);
+            var left = colCount * (margineLeft + colwidth);
+
+            var container = $(divContainerBuilder(top,
+                                                   left,
+                                                   itemsList[i].Handler,
+                                                   itemsList[i].Type));
+
+            var imgContainer = $(iconContainerDivBuilder());
+            var imgIcon = $(imgIConBuilder(itemsList[i].Image,
+                                            itemsList[i].Handler,
+                                            itemsList[i].Type,
+                                            itemsList[i].Titel));
+            imgContainer.append(imgIcon);
+            container.append(imgContainer);
+            var titleContainer = $(titleContainerDivBuilder());
+            var span = $(spanBuilder(itemsList[i].Titel));
+            titleContainer.append(span);
+            container.append(titleContainer);
+            container.draggable();
+            $("body").append(container);//.fadeIn(1000).delay(1000));
+            rowCount++;
+            i++;
+        }
+    }
+
+
+    function DoWork(title , handler, type) {
+        title = title.replace('%20' ,
+                                ' ');
+        console.log(title);
+        var userid = $("#userid").val();
+        desktops.server.DoWork(handler,
+                                userid,
+                                type,
+                                title);
+    }
+
+    function deleteItems(handle,
+                            type) {
+        if (confirm("are you sure want to delete ?")) {
+            var userid = $("#userid").val();
+            var sessionID = $("#sessionid").val();
+            desktops.server.Delete(sessionID,
+                                    handle,
+                                    userid,
+                                    type);
+        }
+    }
+
+
+</script>
+
+
+<input type="hidden" id="divindicator" value="0" />
+<input type="hidden" id="currentdiv" value="0" />
+<input type="hidden" id="userid" value="@ViewBag.userid" />
+<input type="hidden" id="sessionid" value="@ViewBag.sessionid" />
+<video>
+
+</video>
+<div id="trightPanel">
+    @*<div id="twrapper">
+            <div id="tcell">
+                <div class="tcontent">
+                    <span class="sItem">Search in Cloud</span>
+                </div>
+                <div class="tcontent">
+                      <span class="sItem">Management Panel</span>
+                </div>
+                <div class="tcontent">
+                    <span class="sItem">ToolsBox</span>
+                </div>
+                <div class="tcontent">
+                    <span class="sItem">Settings</span>
+                </div>
+
+            </div>
+        </div>*@
+    <div class="menuItemContent" id="Storage">
+        <span>Storages</span>
+    </div>
+    <div class="menuItemContent" id="managementPanle">
+        <span>Management Panel</span>
+    </div>
+    <div class="menuItemContent" id="RBSmgr">
+        <span>RBS Management</span>
+    </div>
+    <div class="menuItemContent" id="setting">
+        <span>Settings</span>
+    </div>
+</div>
+
+
+

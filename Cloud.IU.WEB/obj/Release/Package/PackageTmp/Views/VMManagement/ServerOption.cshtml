@@ -1,0 +1,53 @@
+﻿@*<script>
+    $(function () {
+        var machine = $.connection.Machines;
+        $.connection.hub.start().done(function () {
+            machine.server.Initial();
+        });
+
+
+
+    });
+</script>*@
+
+<table style="float:right">
+    <tr>
+        <td>
+            <label>لیست انواع</label>
+        </td>
+        <td>
+            @Html.DropDownList("zImagelistddl",
+                                       ViewBag.zimageList as SelectList,
+                                                         "------------",
+                                                 new { @class = "select" })
+
+
+        </td>
+
+        <td><label>لیست تصاویر</label></td>
+        <td>
+            @Html.DropDownList("zflavorlistddl",
+                                       ViewBag.zflavorList as SelectList,
+                                        "------------",
+                                        new { @class = "select" })
+
+        </td>
+
+        <td>
+            <label>نام ماشین</label>
+        </td>
+        <td>
+            <input id="machinename" type="text" value="" />
+        </td>
+        <td>
+            <input type="button" id="zserverscreate-btn" name=" zserverselect-btn" value="ایجاد" disabled="disabled" />
+
+        </td>
+
+    </tr>
+</table>
+
+
+
+
+

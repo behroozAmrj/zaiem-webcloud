@@ -1,0 +1,47 @@
+﻿@model List<Cloud.Log.Tracking.LogRecord>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Logging</title>
+</head>
+<body>
+
+    <div>
+        @if (ViewBag.role == "admin")
+        {
+            <div>
+                @using (Html.BeginForm("SearchUser", "AdminPanel"))
+                {
+                    <p>enter userNumber : </p>
+                    @Html.TextBox("userID")
+                    <br />
+                    <input type="submit" value="Search User" />
+                }
+            </div>
+        }
+        <table>
+            <tr>
+                <td>ID</td>
+                <td>Type</td>
+                <td>Date</td>
+                <td>Message</td>
+            </tr>
+            @foreach (var log in Model)
+            {
+                <tr>
+                    <td>  @log.userID  </td>
+                    <td>  @log.type  </td>
+                    <td>  @log.dateTime </td>
+                    <td>  @log.message  </td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Execute_Method">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MethodName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Params" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="Execute_MethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Execute_MethodResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloudService_ExecuteMethod">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AppName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ServiceName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MethodName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Params" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CloudService_ExecuteMethodResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CloudService_ExecuteMethodResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="Execute_MethodSoapIn">
+    <wsdl:part name="parameters" element="tns:Execute_Method" />
+  </wsdl:message>
+  <wsdl:message name="Execute_MethodSoapOut">
+    <wsdl:part name="parameters" element="tns:Execute_MethodResponse" />
+  </wsdl:message>
+  <wsdl:message name="CloudService_ExecuteMethodSoapIn">
+    <wsdl:part name="parameters" element="tns:CloudService_ExecuteMethod" />
+  </wsdl:message>
+  <wsdl:message name="CloudService_ExecuteMethodSoapOut">
+    <wsdl:part name="parameters" element="tns:CloudService_ExecuteMethodResponse" />
+  </wsdl:message>
+  <wsdl:portType name="GateWayService1Soap">
+    <wsdl:operation name="Execute_Method">
+      <wsdl:input message="tns:Execute_MethodSoapIn" />
+      <wsdl:output message="tns:Execute_MethodSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CloudService_ExecuteMethod">
+      <wsdl:input message="tns:CloudService_ExecuteMethodSoapIn" />
+      <wsdl:output message="tns:CloudService_ExecuteMethodSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GateWayService1Soap" type="tns:GateWayService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Execute_Method">
+      <soap:operation soapAction="http://tempuri.org/Execute_Method" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloudService_ExecuteMethod">
+      <soap:operation soapAction="http://tempuri.org/CloudService_ExecuteMethod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GateWayService1Soap12" type="tns:GateWayService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Execute_Method">
+      <soap12:operation soapAction="http://tempuri.org/Execute_Method" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CloudService_ExecuteMethod">
+      <soap12:operation soapAction="http://tempuri.org/CloudService_ExecuteMethod" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GateWayService1">
+    <wsdl:port name="GateWayService1Soap" binding="tns:GateWayService1Soap">
+      <soap:address location="http://localhost:5146/Services/GateWayService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GateWayService1Soap12" binding="tns:GateWayService1Soap12">
+      <soap12:address location="http://localhost:5146/Services/GateWayService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

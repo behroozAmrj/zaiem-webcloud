@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <settings>
+    <desktop>
+      <background src="bgimage - copy.jpg" />
+    </desktop>
+  </settings>
+  <layouts>
+    <layout name="Machine" directory="Machine">
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    </layout>
+    <layout name="TItem" directory="TItem">
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    </layout>
+    <layout name="desktopitems" directory="desktopremote">
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    </layout>
+  </layouts>
+  <applications>
+    <application name="Storage" directory="CloudStorage" enable="true" time="17:10">
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    </application>
+    <application name="NotePad" directory="NotePad" time="10:10" enable="true">
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    </application>
+    <application name="onDemand" directory="Calculator" enable="true" time="10:01">
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    </application>
+    <application name="Dic" directory="Dictionary" enable="true" time="07:10">
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+      <User ID="7b0b419da2624c63bb3ea9b3c0fd768f" />
+    </application>
+    <application name="SayHelloRBS" directory="SampleRBS" enable="true" time="07:10">
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    </application>
+    <application name="zaiemPortal" directory="zaeimPortal" enable="true" time="07:10">
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+      <User ID="170e002aa852408d84799bc92e5fb2fc" />
+    </application>
+    <application name="zaiemR" directory="zaeimPortalR" enable="true" time="07:10">
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    </application>
+    <application name="vmMgr" directory="VMManagement" enable="true" time="07:10">
+      <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+      <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+      <User ID="7b0b419da2624c63bb3ea9b3c0fd768f" />
+    </application>
+    <application name="Storage" directory="zDriveStorage" enable="true" time="07:10">
+      <User ID="*" />
+    </application>
+    <application name="RBSManage" directory="RBSManagement" enable="true" time="07:10">
+      <User ID="*" />
+    </application>
+    <application name="LogViewer" directory="LogViewerMgr" enable="true" time="10:57">
+      <User ID=" " role="admin" />
+    </application>
+  </applications>
+</root>

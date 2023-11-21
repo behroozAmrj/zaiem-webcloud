@@ -1,0 +1,252 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Calculator</title>
+    <script src="../Scripts/jquery-1.10.2.js"></script>
+    <script>
+        var Url = "../../../Services/GateWayService.svc/Execute_Method";
+        //var Url = "../../../Services/GateWayService.svc/CloudService_CallMethod";
+        var appname = "onDemand";
+        var classname = "Calculator";
+        var method = "OprationList";
+        var type = "POST";
+        var datatype = "json";
+        var contenttype = "application/json;charset=utf-8";
+        var processData = false;
+
+
+        $(document).ready(function () {
+
+            function reSet() {
+                $("#number").val(0);
+
+            }
+            function toNumber(value) {
+                return (parseInt(value));
+            }
+
+
+            function opration(preNumber, opration, number) {
+                switch (opration) {
+                    case '+': {
+
+
+                        var param = [parseInt(preNumber),
+                                    parseInt(number)];
+                        callService("Add",
+                                        param);
+                        return (0);
+                        break;
+                    }
+                    case '-': {
+
+                        var param = [parseInt(preNumber),
+                                    parseInt(number)];
+                        callService("Sub",
+                                     param);
+                        return (0);
+                        break;
+                    }
+                }
+            }
+
+            $("input[type='button']").click(function () {
+                var val = $(this).val();
+
+                switch (val) {
+                    case '+': {
+
+                        var presign = $("#opration").val();
+                        if (presign == "") {
+                            $("#preNumber").val($("#number").val());
+                            $("#number").val(0);
+                            $("#opration").val("+");
+
+                        }
+                        else {
+                            var prenumber = $("#preNumber").val();
+                            var number = $("#number").val();
+                            var result = opration(prenumber,
+                                                     presign,
+                                                    number);
+
+                            $("#opration").val("+");
+                            $("#number").val(0);
+
+                        }
+                        break;
+                    }
+                    case '-': {
+                        var presign = $("#opration").val();
+                        if (presign == "") {
+                            $("#preNumber").val($("#number").val());
+                            $("#number").val(0);
+                            $("#opration").val("-");
+
+                        }
+                        else {
+                            var prenumber = $("#preNumber").val();
+                            var number = $("#number").val();
+                            var result = opration(prenumber,
+                                                   presign,
+                                                    number);
+                            $("#number").val(0);
+
+                            $("#opration").val("-");
+
+                        }
+                        break;
+                    }
+                    case "=":
+                        {
+                            var prenumber = $("#preNumber").val();
+                            var number = $("#number").val();
+                            var sing = $("#opration").val();
+                            if (prenumber != null) {
+                                if (number != null) {
+                                    if (sing != null) {
+                                        var result = opration(prenumber,
+                                                                sing,
+                                                                number);
+                                        $("#result").val(result);
+                                        $("#opration").val("");
+                                        $("#number").val("0");
+                                        $("#preNumber").val("0");
+                                    }
+                                }
+                                else {
+                                    $("#result").val(prenumber);
+                                }
+                            }
+                            else {
+
+                            }
+                            break;
+                        }
+                    default:
+                        {
+                            var hres = $("#number").val();
+                            hres = parseFloat(hres) * 10;
+                            hres = hres + parseInt(val);
+
+                            $("#number").val(hres);
+                            $("#result").val(hres);
+                        }
+                }
+
+            });
+
+            function callService(method, params) {
+
+                var data = JSON.stringify({
+                    AppName: appname,
+                    ClassName: classname,
+                    MethodName: method,
+                    Params: params
+                });
+                $.ajax({
+                    type: type, //GET or POST or PUT or DELETE verb
+                    url: Url, // Location of the service
+                    data: data, //Data sent to server
+                    contentType: contenttype, // content type sent to server
+                    dataType: "json", //Expected data format from server
+                    processdata: false, //True or Fal
+                    success: function (data) {
+                        var result = data.d;
+                        $("#result").val(result);
+                        $("#preNumber").val(result);
+                        $("#result").val(data.Execute_MethodResult);
+                    }
+                });
+            }
+        });
+        function callService() {
+
+            var params = ["10", "23"];
+            var data = JSON.stringify({
+                AppName: appname,
+                ClassName: classname,
+                MethodName: method,
+                Params: params
+            });
+            $.ajax({
+                type: type, //GET or POST or PUT or DELETE verb
+                url: Url, // Location of the service
+                data: data, //Data sent to server
+                contentType: contenttype, // content type sent to server
+                dataType: datatype, //Expected data format from server
+                processdata: false, //True or Fal
+                success: function (data) {
+					
+                }
+            });
+        }
+        $(window).load(function () {
+            $("#hresult").val(0);
+            $("#result").val(0);
+            //callService();
+        });
+        
+        
+        function callservice()
+        {
+        	
+             
+                 
+                  /**/ 
+                  var data = JSON.stringify({
+                    AppName: "onDemand" ,
+                    ClassName: "Calculator",
+                    MethodName: "OprationList" ,
+                    Params: null
+                });
+
+                $.ajax({
+                    type: "POST", 
+                    url: "../../../Services/GateWayService.svc/Execute_Method", 
+                    data: data, 
+                    contentType: "application/json;charset=utf-8", 
+                    dataType: "application/json;charset=utf-8",
+                    processdata: false, 
+                    success: function (da)
+                    {
+                      // var  result = data.CloudService_CallMethodResult;
+                      // $("#result_fa").text(result);
+                      alert(" Recieve : Success ! ");
+
+                    }
+                    });
+
+        	
+        }
+    </script>
+</head>
+<body>
+    <input type="hidden" id="number" value="0" />
+    <input type="hidden"  id="preNumber"  value="0"/>
+    <input type="hidden" id="opration" value="" />
+    <div id="resultbox">
+        <input type="text" readonly="true" id="result" />
+        
+    </div>
+    <table>
+        <tr>
+            <td><input type="button" value="1" /></td> <td><input type="button" value="2" /></td> <td><input type="button" value="3" /><input type="button" value="+" /></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" /></td> <td><input type="button" value="5" /></td> <td><input type="button" value="6" /><input type="button" value="-" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" /></td> <td><input type="button" value="8" /></td> <td><input type="button" value="9" /></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="0" /></td><td>
+        <input type="button" value="="  style="width:20px;"/></td><td>&nbsp;</td>
+        </tr>
+    </table>
+    <div>
+        &nbsp;</div>
+        <input type="button" value="Call WCF Service Method" id="getlist" onclick="callservice()" />
+</body>
+</html>

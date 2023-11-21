@@ -1,0 +1,12 @@
+D:\APPs\Cloud\RespositoryService\bin\RespositoryService.dll.config
+D:\APPs\Cloud\RespositoryService\bin\RespositoryService.dll
+D:\APPs\Cloud\RespositoryService\bin\RespositoryService.pdb
+D:\APPs\Cloud\RespositoryService\bin\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\RespositoryService\bin\Newtonsoft.Json.dll
+D:\APPs\Cloud\RespositoryService\bin\zStack_SDK.dll
+D:\APPs\Cloud\RespositoryService\bin\OS_SDK.dll
+D:\APPs\Cloud\RespositoryService\bin\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\RespositoryService\bin\Newtonsoft.Json.xml
+D:\APPs\Cloud\RespositoryService\obj\Debug\RespositoryService.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\RespositoryService\obj\Debug\RespositoryService.dll
+D:\APPs\Cloud\RespositoryService\obj\Debug\RespositoryService.pdb

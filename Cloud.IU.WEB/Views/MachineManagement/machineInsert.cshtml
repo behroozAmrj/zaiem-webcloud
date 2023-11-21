@@ -1,0 +1,36 @@
+﻿<div class="machineElement">
+    <input id="machineName_txt" type="text" class="machineText inputValue" placeholder="Machine Name" title="Machine Name" />
+</div>
+
+<div class="machineElement">
+
+    @Html.DropDownList("zImagelistddl",
+                                       ViewBag.zImageList as SelectList,
+                                       "choose machine type",
+                                       new { @class = "machineDdl inputValue"  , title="machine type"})
+</div>
+<div class="machineElement">
+
+    @Html.DropDownList("zFlavorListDdl",
+                                       ViewBag.zFlavorList as SelectList,
+                                       "choose flavor",
+                                       new { @class = "machineDdl inputValue" , title="machine flavor" })
+</div>
+
+<div class="machineElement">
+    <ul>
+        @{ var networkList = ViewBag.networkList as List<string>;
+            foreach (var network in networkList)
+            {
+                <li class="machineNetwork"><input type="radio" value="@network" name="networkGrp" />@network</li>
+            }
+        }
+    </ul>
+</div>
+<div class="errorPanel">
+    <span id="errorMsg"></span>
+</div>
+<div id="machinePanleFooter" class="footer">
+    <input type="button" class="dialogBottom" value="ok" id="machineInsert_insert_btn" />
+    <input type="button" class="dialogBottom" value="cancel" id="machineInsert_cancle_btn" />
+</div>

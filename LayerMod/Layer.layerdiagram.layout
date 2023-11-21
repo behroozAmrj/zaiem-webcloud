@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerDiagram dslVersion="1.0.0.0" Id="d7beebda-44d5-4f13-88b7-9490b051598a" absoluteBounds="0, 0, 11, 8.5" name="Layer">
+  <layerModelMoniker Id="9e74cc78-3572-404d-b3b5-7ada7d4abcf4" />
+  <nestedChildShapes>
+    <layerShape Id="6754b5f4-1efb-4149-9339-6d554851992b" absoluteBounds="4.125, 1.375, 2, 0.75" customColor="161, 199, 231">
+      <layerMoniker Id="a058a9ef-d96f-4ec4-82a4-e04cad4d277c" />
+    </layerShape>
+  </nestedChildShapes>
+</layerDiagram>

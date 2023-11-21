@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="SayHello.html"  title="RBS_SayHello" width="450px" height="400px" />
+  <image src="sampleRBS_icon.png" />
+  <APIS>
+    <lib filename="SampleCode.dll"/>
+  </APIS>
+  <services>
+ 							
+ </services>	
+</applicationConfig>

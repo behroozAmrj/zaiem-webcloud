@@ -1,0 +1,25 @@
+﻿body , html
+{
+	background-color:white;
+	height:100%;
+	width:100%;
+}
+
+#wrapper
+{
+	/*margin:0 auto;*/
+	width:100%;
+	height:100%;
+}
+#result_fa
+{
+	
+	font-family:tahoma; font-size:small;
+}
+
+iframe
+{
+	width:100%;
+	height:100%;
+	
+}

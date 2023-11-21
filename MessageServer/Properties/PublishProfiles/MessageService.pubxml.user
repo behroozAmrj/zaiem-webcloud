@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Sites\Services\Messanger</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/App_global.asax.compiled">
+      <publishTime>01/25/2016 11:02:36</publishTime>
+    </File>
+    <File Include="bin/App_global.asax.dll">
+      <publishTime>01/25/2016 11:02:36</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:18</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:20</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:20</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:18</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:20</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:20</publishTime>
+    </File>
+    <File Include="bin/MessageServer.dll">
+      <publishTime>01/25/2016 10:57:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Data.Entity.Design.Extensibility.dll">
+      <publishTime>03/02/2015 13:37:20</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/02/2015 12:01:43</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:20</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/24/2015 14:30:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/24/2015 14:30:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/24/2015 14:30:32</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.Data.Entity.Design.Extensibility.resources.dll">
+      <publishTime>03/02/2015 13:37:20</publishTime>
+    </File>
+    <File Include="DataAccess/DataManageDB.dbml">
+      <publishTime>01/25/2016 10:45:53</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/08/2015 19:05:13</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>01/25/2016 11:02:35</publishTime>
+    </File>
+    <File Include="RoatData/RoatDB.accdb">
+      <publishTime>01/20/2016 10:22:32</publishTime>
+    </File>
+    <File Include="RoatData/RoatDB.xml">
+      <publishTime>01/13/2016 16:41:03</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/MessageServer.ServiceReference1.CloudService_ExecuteMethodResponse.datasource">
+      <publishTime>12/21/2015 11:41:06</publishTime>
+    </File>
+    <File Include="Service References/ServiceReference1/MessageServer.ServiceReference1.Execute_MethodResponse.datasource">
+      <publishTime>12/21/2015 11:41:05</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/21/2016 15:12:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

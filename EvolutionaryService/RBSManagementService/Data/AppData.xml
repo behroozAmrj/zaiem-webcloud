@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<applications>
+  <application name="Storage" source="CloudStorage" enable="true" time="17:10" version="1">
+    <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+  </application>
+  <application name="NotePad" source="NotePad" time="10:10" enable="true" version="1">
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+  </application>
+  <application name="onDemand" source="Calculator" enable="true" time="10:01" version="1">
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+  </application>
+  <application name="Dic" source="Dictionary" enable="true" time="07:10" version="1">
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    <User ID="7b0b419da2624c63bb3ea9b3c0fd768f" />
+  </application>
+  <application name="SayHelloRBS" source="SampleRBS" enable="true" time="07:10" version="1">
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+  </application>
+  <application name="zaiemPortal" source="zaeimPortal" enable="true" time="07:10" version="1">
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    <User ID="170e002aa852408d84799bc92e5fb2fc" />
+  </application>
+  <application name="zaiemR" source="zaeimPortalR" enable="true" time="07:10" version="1">
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+  </application>
+  <application name="vmMgr" source="VMManagement" enable="true" time="07:10" version="1">
+    <User ID="de9f7dd1d2cc43739ba93082bb3cc20d" />
+    <User ID="d8ccf5a0be9c4a3ea5ca11a77716af7a" />
+    <User ID="7b0b419da2624c63bb3ea9b3c0fd768f" />
+  </application>
+  <application name="Storage" source="zDriveStorage" enable="true" time="07:10" version="1">
+    <User ID="*" />
+  </application>
+  <application name="RBSManage" source="RBSManagement" enable="true" time="07:10" version="1">
+    <User ID="*" />
+  </application>
+  <application name="LogViewer" source="LogViewerMgr" enable="true" time="10:57" version="1">
+    <User ID=" " role="admin" />
+  </application>
+
+</applications>

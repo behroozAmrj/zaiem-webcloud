@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="vmManagement.html"  title="VM management" width="450px" height="400px" />
+  <image src="VMgr.png" />
+  <APIS>
+    <lib filename="SampleCode.dll"/>
+  </APIS>
+  <services>
+ 							
+ </services>	
+</applicationConfig>

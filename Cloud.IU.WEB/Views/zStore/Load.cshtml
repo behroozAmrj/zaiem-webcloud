@@ -1,0 +1,47 @@
+﻿@model List<Cloud.Core.Models.Appliance>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Load</title>
+</head>
+<body>
+    <input type="hidden" value="@ViewBag.networksList" id="networkList" />
+    <div>
+        <div>
+            @using (Html.BeginForm("addAppliance", "zStore", FormMethod.Post))
+            {
+                <input type="hidden" value="@ViewBag.url" id="URL" name="URL" />
+                <li> @Html.TextBox("applianceID")</li>
+                <li>@Html.TextBox("applianceName")</li>
+                <li>@Html.TextBox("networkID")</li>
+                <input type="submit" value="Insert" />
+            }
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td>ID</td>
+                    <td>Name</td>
+                    <td>Owner</td>
+                    <td>Description</td>
+                </tr>
+                @foreach (var appliance in Model)
+                {
+                    <tr>
+                        <td> @appliance.ID </td>
+                        <td> @appliance.Name </td>
+                        <td> @appliance.Owner </td>
+                        <td> <a href="@appliance.Description" target="_blank"> @appliance.Name </a> </td>
+                    </tr>
+                }
+            </table>
+        </div>
+    </div>
+</body>
+</html>

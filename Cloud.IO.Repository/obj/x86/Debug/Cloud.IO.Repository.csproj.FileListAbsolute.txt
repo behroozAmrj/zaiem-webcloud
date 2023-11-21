@@ -1,0 +1,14 @@
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\Cloud.IO.Repository.dll.config
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\Cloud.IO.Repository.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\Cloud.IO.Repository.pdb
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\zStack_SDK.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\OS_SDK.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\zStack_SDK.pdb
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\zStack_SDK.xml
+D:\APPs\Cloud\Cloud.IO.Repository\bin\x86\Debug\OS_SDK.pdb
+D:\APPs\Cloud\Cloud.IO.Repository\obj\x86\Debug\Cloud.IO.Repository.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.IO.Repository\obj\x86\Debug\Cloud.IO.Repository.dll
+D:\APPs\Cloud\Cloud.IO.Repository\obj\x86\Debug\Cloud.IO.Repository.pdb

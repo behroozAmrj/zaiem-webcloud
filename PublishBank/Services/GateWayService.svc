@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Cloud.IU.WEB.Services.GateWayService" CodeBehind="GateWayService.svc.cs" %>

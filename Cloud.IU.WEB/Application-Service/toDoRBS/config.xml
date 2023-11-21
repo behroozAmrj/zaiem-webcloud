@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="zToDo.html" title="zToDo" width="450px" height="450px" />
+  <image src="zToDo.png" />
+  <APIS>
+    <lib filename="TODOList.dll" />
+  </APIS>
+  <service>
+    
+  </service>
+</applicationConfig>

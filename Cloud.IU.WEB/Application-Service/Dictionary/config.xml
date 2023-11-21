@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="Dic.html"  title="Dictionary" width="450px" height="400px" />
+  <image src="dic.png" />
+  <APIS>
+    <lib filename="dic.dll"/>
+  </APIS>
+  <layouts>
+	
+ </layouts>
+    <services>
+ 		<service servicename="dictionaryservice" 
+			 url="http://172.18.5.116:9999/Timer.svc?wsdl"
+                         type="WCFService"/>
+        <service servicename="asmxdictionaryservice"
+                url="http://172.18.23.229:8094/service.asmx?wsdl"
+                type="asmx"	/>							
+ </services>	
+</applicationConfig>

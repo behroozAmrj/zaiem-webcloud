@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TransactionDB" Class="TransactionDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=172.18.23.229\EXPSQL2008R2;Initial Catalog=TransactionDB;Persist Security Info=True;User ID=sa" SettingsObjectName="Cloud.IO.DataAccess.Properties.Settings" SettingsPropertyName="TransactionDBConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.LogRegister" Method="LogRegister">
+    <Parameter Name="appName" Type="System.String" DbType="VarChar(70)" />
+    <Parameter Name="dateTime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="userID" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="logTracce" Type="System.String" DbType="VarChar(70)" />
+    <Parameter Name="action" Type="System.String" DbType="VarChar(70)" />
+    <Parameter Name="actionType" Type="System.String" DbType="Char(20)" />
+    <Parameter Name="content" Type="System.String" DbType="NVarChar(200)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

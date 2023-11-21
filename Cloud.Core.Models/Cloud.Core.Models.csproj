@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F4137ABF-8CE9-47E1-9242-092DF75F0D98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cloud.Core.Models</RootNamespace>
+    <AssemblyName>Cloud.Core.Models</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Entity.Design.Extensibility, Version=11.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="OS_SDK">
+      <HintPath>..\OS_SDK.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleRESTServices">
+      <HintPath>..\..\..\SimpleRESTServices.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Core">
+      <HintPath>..\..\..\SuperSocket.ClientEngine.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="SuperSocket.ClientEngine.Protocol">
+      <HintPath>..\..\..\SuperSocket.ClientEngine.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WebSocket4Net, Version=0.12.0.0, Culture=neutral, PublicKeyToken=eb4e154b696bf72a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\WebSocket4Net.dll</HintPath>
+    </Reference>
+    <Reference Include="zStack_SDK">
+      <HintPath>..\Cloud.IU.WEB\bin\zStack_SDK.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountViewModels.cs" />
+    <Compile Include="APIServiceManagement.cs" />
+    <Compile Include="Appliance.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CatalogManagement.cs" />
+    <Compile Include="CloudIP.cs" />
+    <Compile Include="CloudIPV4.cs" />
+    <Compile Include="CustomView.cs" />
+    <Compile Include="DeskTopBuilder.cs" />
+    <Compile Include="Entity-FactoryMethod.cs" />
+    <Compile Include="ExistApp.cs" />
+    <Compile Include="FormsConfiguration.cs" />
+    <Compile Include="ICloudIP.cs" />
+    <Compile Include="ICloudIPV4.cs" />
+    <Compile Include="IEntity_EX.cs" />
+    <Compile Include="InstallApplianceResponse.cs" />
+    <Compile Include="IOValueException.cs" />
+    <Compile Include="LoginSecurity_v1.cs" />
+    <Compile Include="Machine.cs" />
+    <Compile Include="newZFlavor.cs" />
+    <Compile Include="newZImage.cs" />
+    <Compile Include="newZServer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RBSApplication.cs" />
+    <Compile Include="RBSManagement.cs" />
+    <Compile Include="RunBySelf.cs" />
+    <Compile Include="SDKManager.cs" />
+    <Compile Include="SDKProperty.cs" />
+    <Compile Include="CloudServiceRequestCenter.cs" />
+    <Compile Include="Service References\RepositoryService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service_FactoryMethod.cs" />
+    <Compile Include="StorageServiceManagement.cs" />
+    <Compile Include="StreamCloudApp.cs" />
+    <Compile Include="STRepository.cs" />
+    <Compile Include="TItem.cs" />
+    <Compile Include="TransparentData.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="UserProSecurity.cs" />
+    <Compile Include="WCFConfig.cs" />
+    <Compile Include="WS_ServiceConfigAndInfo.cs" />
+    <Compile Include="zDriveServiceCommand.cs" />
+    <Compile Include="zStoreServiceCommand.cs" />
+    <Compile Include="zStoreServiceManagement.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Cloud.Foundation.Infrastructure\Cloud.Foundation.Infrastructure.csproj">
+      <Project>{beb015cd-5ed2-4d84-ae4d-18e11579b22c}</Project>
+      <Name>Cloud.Foundation.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cloud.IO.NetworkService\Cloud.IO.NetworkService.csproj">
+      <Project>{605c2aea-6cfd-4604-a5f5-3532cf8426af}</Project>
+      <Name>Cloud.IO.NetworkService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cloud.IO.Repository\Cloud.IO.Repository.csproj">
+      <Project>{c996acc0-a5b1-4f23-8f78-94001259ccdd}</Project>
+      <Name>Cloud.IO.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cloud.IO.WSControlCenter\Cloud.IO.WSControlCenter.csproj">
+      <Project>{bb78e223-8693-483f-8bcc-b31a90f5c1d2}</Project>
+      <Name>Cloud.IO.WSControlCenter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Cloud.Log.Tracking\Cloud.Log.Tracking.csproj">
+      <Project>{63e1a4bd-e01d-4820-b54a-c2a034872e2b}</Project>
+      <Name>Cloud.Log.Tracking</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Service References\RepositoryService\Cloud.Core.Models.RepositoryService.RUserProSecurity.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\RepositoryService\Repository.wsdl" />
+    <None Include="Service References\RepositoryService\Repository1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RepositoryService\Repository2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\RepositoryService\Repository3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\RepositoryService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RepositoryService\Repository.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RepositoryService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RepositoryService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\RepositoryService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="machine.css" rel="stylesheet" type="text/css" />
+<title>machine management</title>
+<script type="text/javascript" src="JCode/jquery.js"></script>
+</head>
+
+<body>
+
+<div id="leftPanle">
+	<span id="title">Machine Management</span>
+	<ul id="tabPage">
+		<li class="page select">machines</li>
+		<li class="page">help ?</li>
+	</ul>
+</div>
+<div id="header" class="wrapper">
+	<div class="headerItem">
+		<ul>
+			<li class="newItem bg-green">+new</li>
+			<li class="newItem bg-red">delete</li>
+		</ul>
+	</div>
+</div>
+<div id="container" class="wrapper">
+	<div id="container_div">
+		<div id="topperGridPanel">
+		</div>
+		<div id="gridPanle">
+						
+				<table id="machine_grid">
+					<tr>
+						<td>asdfasddf</td>
+						<td>tttt</td>
+						<td>nnnn</td>
+					</tr>
+				</table>
+			
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(window).load(function(){
+
+	
+	
+	$.ajax({
+             type: "POST",
+             url: "/VMMetroStyle/retrieveMachineList",
+             contentType: "application/json; chartset=utf-8",
+             datatype: "json",
+             success: function (data) {
+                       console.log(data[0].UserId);
+                    },});
+				
+});
+</script>
+</body>
+
+</html>

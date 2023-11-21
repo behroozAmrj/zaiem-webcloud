@@ -1,0 +1,11 @@
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\OS_SDK.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\zStack_SDK.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\zStack_SDK.xml
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\Release\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\Release\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\Release\Cloud.Foundation.Infrastructure.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\log4net.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\log4net.xml
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Release\Newtonsoft.Json.dll

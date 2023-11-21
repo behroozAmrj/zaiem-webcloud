@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Sites\Repository</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/Cloud.Core.Models.dll">
+      <publishTime>11/28/2015 19:43:00</publishTime>
+    </File>
+    <File Include="bin/Cloud.Foundation.Infrastructure.dll">
+      <publishTime>12/28/2015 19:35:03</publishTime>
+    </File>
+    <File Include="bin/Cloud.IO.NetworkService.dll">
+      <publishTime>11/26/2015 10:47:16</publishTime>
+    </File>
+    <File Include="bin/Cloud.IO.Repository.dll">
+      <publishTime>11/26/2015 10:47:16</publishTime>
+    </File>
+    <File Include="bin/Cloud.IO.WSControlCenter.dll">
+      <publishTime>11/26/2015 10:47:16</publishTime>
+    </File>
+    <File Include="bin/Cloud.Log.Tracking.dll">
+      <publishTime>10/12/2015 07:40:37</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>09/04/2014 11:38:42</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>06/02/2015 15:07:37</publishTime>
+    </File>
+    <File Include="bin/OS_SDK.dll">
+      <publishTime>09/30/2015 11:01:31</publishTime>
+    </File>
+    <File Include="bin/RespositoryService.dll">
+      <publishTime>12/31/2015 17:47:40</publishTime>
+    </File>
+    <File Include="bin/SimpleRESTServices.dll">
+      <publishTime>09/15/2015 16:12:51</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.ClientEngine.Common.dll">
+      <publishTime>09/28/2015 14:46:18</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.ClientEngine.Core.dll">
+      <publishTime>09/28/2015 14:45:48</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.ClientEngine.Protocol.dll">
+      <publishTime>09/28/2015 14:45:59</publishTime>
+    </File>
+    <File Include="bin/WebSocket4Net.dll">
+      <publishTime>09/28/2015 15:53:56</publishTime>
+    </File>
+    <File Include="bin/zStack_SDK.dll">
+      <publishTime>03/11/2014 14:48:12</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>12/31/2015 17:53:10</publishTime>
+    </File>
+    <File Include="Repository.svc">
+      <publishTime>11/26/2015 10:18:13</publishTime>
+    </File>
+    <File Include="Service1.svc">
+      <publishTime>11/25/2015 11:35:51</publishTime>
+    </File>
+    <File Include="Service2.svc">
+      <publishTime>11/25/2015 11:36:33</publishTime>
+    </File>
+    <File Include="Test.svc">
+      <publishTime>11/26/2015 10:51:12</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/28/2015 10:50:06</publishTime>
+    </File>
+    <File Include="WebService1.asmx">
+      <publishTime>12/07/2015 08:29:17</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

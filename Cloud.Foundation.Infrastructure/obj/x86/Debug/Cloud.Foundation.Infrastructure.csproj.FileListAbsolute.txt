@@ -1,0 +1,11 @@
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\OS_SDK.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\zStack_SDK.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\OS_SDK.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\zStack_SDK.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\x86\Debug\zStack_SDK.xml
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\x86\Debug\Cloud.Foundation.Infrastructure.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\x86\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\x86\Debug\Cloud.Foundation.Infrastructure.pdb

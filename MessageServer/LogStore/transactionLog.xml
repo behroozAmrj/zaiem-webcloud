@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<transactions>
+  <transaction depar="webcloud" desti="chat" method="ChatService/PostMessage" dateTime="1/17/2016">
+    <content>{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </transaction>
+  <transaction depar="webcloud" desti="chat" method="PostMessage" dateTime="3/9/2016">
+    <content>{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </transaction>
+</transactions>

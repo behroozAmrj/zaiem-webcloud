@@ -1,0 +1,125 @@
+﻿<style>
+    #wrapper_chat {
+        position: fixed;
+        width: 500px;
+        height: 300px;
+        right: 50px;
+        bottom: 40px;
+        background-color: white;
+        list-style: none;
+        background-color:silver;
+    }
+    #chat_history {
+        background-color: white;
+        display: inline-block;
+        float: right;
+        height: calc(100% - 50px);
+        overflow: scroll;
+        width: calc(100% - 100px);
+        position:absolute;
+    }
+    #panel_onlineUserPanel {
+        background-color: grey;
+        clear: both;
+        display: inline-block;
+        height: 100%;
+        left: 0;
+        position: relative;
+        width: 100px;
+    }
+    #chat_footer {
+        background-color: yellowgreen;
+        bottom: 0;
+        height: 50px;
+        position: absolute;
+        right: 0;
+        width: calc(100% - 100px);
+    }
+</style>
+<script>
+    var cloudService = "/gateway/PostMessage/";
+    var currentUserID = "";
+    var partnerID = "";
+    function chat_push(data)
+    {
+        var li = $("<li></li>");
+        li.append(data.Text);
+        partnerID = data.SenderUserID;
+        $("#chat_history").append(li);
+
+        $.each(data.Funcs, function (index, value) {
+            
+            if (value == "getOnlineUsers") {
+                $("#panel_onlineUserPanel").html("");
+                $.each(data.userList, function (index,value) {
+                    var li = $("<li></li>");
+                    li.append(value.UserName);
+                    $("#panel_onlineUserPanel").append(li);
+                })
+            }
+        });
+    }
+
+    function sendData(userID , text)
+    {
+        currentUserID = $("#userID").val();
+        if (userID == "")
+            userID = "d8ccf5a0be9c4a3ea5ca11a77716af7a";
+       
+        if (currentUserID == "")
+            return;
+        var request;
+        if (window.XMLHttpRequest)
+            request = new XMLHttpRequest();
+        else
+            request = new ActiveXObject("Microsoft.XMLHTTP");
+        request.onload = function(data)
+        {
+            
+        }
+        request.onreadystatechange = function (data)
+        {
+        }
+
+        request.open("POST",
+                        cloudService,
+                        "false");
+        request.setRequestHeader("Content-Type",
+                                	 "application/json;");
+        var url = "chat";
+        var method = "ChatService/PostMessage"
+        var hostname = location.hostname;
+        if (location.port != "")
+            hostname = hostname + ":" + location.port;
+        var content = "{\"DestinationURL\":\"webcloud\",\"SenderUserID\":\"" + currentUserID + "\",\"Text\":\"" + text + "\",\"ReceiverUserID\":\"" + partnerID + "\",\"Funcs\":[\"send\",\"getOnlineUsers\"]}";
+        try {
+            request.send(JSON.stringify({ serviceName: url, methodName: method, content: content }));
+        }
+        catch (e)
+        {
+            console.log(e.message);
+        }
+    }
+
+    $(document).ready(function () {
+        $("#text").keyup(function (event) {
+            var code = event.keyCode || event.witch;
+            if (code == 13) {
+                sendData(partnerID,
+                          $(this).val());
+                var li = $("<li></li>");
+                li.append("you: " + $(this).val());
+                $("#chat_history").append(li);
+                $(this).val("");
+            }
+            });
+
+        });
+</script>
+<div id="wrapper_chat" class="appHide">
+    <div id="panel_onlineUserPanel"></div>
+    <div id="chat_history"></div>
+    <div id="chat_footer">
+        <input type="text" id="text" />
+    </div>
+</div>

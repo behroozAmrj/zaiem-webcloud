@@ -1,0 +1,7 @@
+D:\APPs\Cloud\Cloud.Log.Tracking\bin\x64\Debug\Cloud.Log.Tracking.dll.config
+D:\APPs\Cloud\Cloud.Log.Tracking\bin\x64\Debug\Cloud.Log.Tracking.dll
+D:\APPs\Cloud\Cloud.Log.Tracking\bin\x64\Debug\Cloud.Log.Tracking.pdb
+D:\APPs\Cloud\Cloud.Log.Tracking\bin\x64\Debug\log4net.dll
+D:\APPs\Cloud\Cloud.Log.Tracking\bin\x64\Debug\log4net.xml
+D:\APPs\Cloud\Cloud.Log.Tracking\obj\x64\Debug\Cloud.Log.Tracking.dll
+D:\APPs\Cloud\Cloud.Log.Tracking\obj\x64\Debug\Cloud.Log.Tracking.pdb

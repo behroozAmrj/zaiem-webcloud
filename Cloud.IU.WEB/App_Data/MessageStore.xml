@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<row>
+  <id>1</id>
+  <msg>hello</msg>
+</row>
+<row>
+  <id>1</id>
+  <msg></msg>
+</row>

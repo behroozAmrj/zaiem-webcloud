@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>واژه نامه</title>
+<link href="../Design/Sites.css" rel="stylesheet" />
+<script src="../Scripts/jquery-1.10.2.js"></script>
+<script>
+        //var Url = "../../../Services/GateWayService.svc/CloudService_CallMethod";
+        var Url = "../../../Services/GateWayService.asmx/CloudService_ExecuteMethod";
+		var serviceName = "asmxdictionaryservice";
+        //var Url = "/calc.asmx/Add";
+        var appname = "Dic";
+        var classname = "Service";
+        //var method = "Search";
+        var type = "POST";
+        var datatype = "json";
+        var contenttype = "application/json;charset=utf-8";
+        var processData = false;
+       
+
+        $(document).ready(function () {
+            
+            $("#word_en").on("change keyup paste",function(){
+            	
+            	if ($("#word_en").val() != "")
+            	{
+	            	var word = $("#word_en").val();
+	            	 var params = [word];
+	                callService(params, 
+	                		"SearchWordInDictionarybyEn");
+                }
+
+            }); 
+            
+		$("#ok").click(function () {
+                var val = $("#word_en").val();
+                var params = [val];
+                //callService(params, "Search");
+
+		});
+		/*$("#okEn").click(function () {
+                var val = $("#word_en").val();
+                var params = [val];
+                //callService(params, "SearchEn");
+
+		});
+		$("#okFa").click(function () {
+                var val = $("#word_en").val();
+                var params = [val];
+                //callService(params, "SearchFa");
+
+		});*/
+
+
+		
+
+         });
+         
+         
+         function callService(params, method)
+            {
+
+                var data = JSON.stringify({
+                    AppName: appname,
+                    ServiceName : serviceName,
+                    ClassName: classname,
+                    MethodName: method,
+                    Params: params
+                });
+                $.ajax({
+                    type: type, //GET or POST or PUT or DELETE verb
+                    url: Url, // Location of the service
+                    data: data, //Data sent to server
+                    contentType: contenttype, // content type sent to server
+                    dataType: datatype, //Expected data format from server
+                    processdata: false, //True or Fal
+                    success: function (data)
+                    {
+	                     $("#result_fa").html("");
+	                     try
+	                     {
+		                     $.each(data.d , function(index , value){
+	                      		 $("#result_fa").append(value);
+	                      	 });
+	                     }
+	                     catch (e)
+	                     {
+
+                     	 		$("#result_fa").html(data.d);
+	                     }
+	                     }
+                    });
+            }
+            
+            
+            function run()
+            {
+            	var word = $("#word_en").val();
+            	 var params = [word];
+                callService(params, 
+                			"SearchWordInDictionarybyEn");
+
+            }
+            
+           
+       
+    </script>
+</head>
+
+<body>
+
+Word: <input id="word_en" name="word" style="width: 360px" type="text" />
+<p />
+<input id="runservice" onclick="run()" type="button" value="run service . . ." />
+<hr />
+<p />
+Result: <label id="result_fa">لطفا یک واژه را وارد کنید و اشاره ای بر دکمه جستجو 
+داشته باشید</label>
+
+</body>
+
+</html>

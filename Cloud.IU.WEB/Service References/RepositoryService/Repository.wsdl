@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Repository" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8095/Repository.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8095/Repository.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8095/Repository.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/RespositoryService" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRepository_getUserToken_InputMessage">
+    <wsdl:part name="parameters" element="tns:getUserToken" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_getUserToken_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getUserTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_setUserCredentialToken_InputMessage">
+    <wsdl:part name="parameters" element="tns:setUserCredentialToken" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_setUserCredentialToken_OutputMessage">
+    <wsdl:part name="parameters" element="tns:setUserCredentialTokenResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_insertUserAndSession_InputMessage">
+    <wsdl:part name="parameters" element="tns:insertUserAndSession" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_insertUserAndSession_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insertUserAndSessionResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_getUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:getUser" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_getUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_getUserBasedOnSessionID_InputMessage">
+    <wsdl:part name="parameters" element="tns:getUserBasedOnSessionID" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_getUserBasedOnSessionID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getUserBasedOnSessionIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_updateConnectionID_InputMessage">
+    <wsdl:part name="parameters" element="tns:updateConnectionID" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_updateConnectionID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:updateConnectionIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_getOnlineUsers_InputMessage">
+    <wsdl:part name="parameters" element="tns:getOnlineUsers" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_getOnlineUsers_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getOnlineUsersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_removeUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:removeUser" />
+  </wsdl:message>
+  <wsdl:message name="IRepository_removeUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:removeUserResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IRepository">
+    <wsdl:operation name="getUserToken">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/getUserToken" message="tns:IRepository_getUserToken_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/getUserTokenResponse" message="tns:IRepository_getUserToken_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="setUserCredentialToken">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/setUserCredentialToken" message="tns:IRepository_setUserCredentialToken_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/setUserCredentialTokenResponse" message="tns:IRepository_setUserCredentialToken_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insertUserAndSession">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/insertUserAndSession" message="tns:IRepository_insertUserAndSession_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/insertUserAndSessionResponse" message="tns:IRepository_insertUserAndSession_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/getUser" message="tns:IRepository_getUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/getUserResponse" message="tns:IRepository_getUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getUserBasedOnSessionID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/getUserBasedOnSessionID" message="tns:IRepository_getUserBasedOnSessionID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/getUserBasedOnSessionIDResponse" message="tns:IRepository_getUserBasedOnSessionID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="updateConnectionID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/updateConnectionID" message="tns:IRepository_updateConnectionID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/updateConnectionIDResponse" message="tns:IRepository_updateConnectionID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getOnlineUsers">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/getOnlineUsers" message="tns:IRepository_getOnlineUsers_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/getOnlineUsersResponse" message="tns:IRepository_getOnlineUsers_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="removeUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IRepository/removeUser" message="tns:IRepository_removeUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IRepository/removeUserResponse" message="tns:IRepository_removeUser_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IRepository" type="tns:IRepository">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getUserToken">
+      <soap:operation soapAction="http://tempuri.org/IRepository/getUserToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setUserCredentialToken">
+      <soap:operation soapAction="http://tempuri.org/IRepository/setUserCredentialToken" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertUserAndSession">
+      <soap:operation soapAction="http://tempuri.org/IRepository/insertUserAndSession" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUser">
+      <soap:operation soapAction="http://tempuri.org/IRepository/getUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUserBasedOnSessionID">
+      <soap:operation soapAction="http://tempuri.org/IRepository/getUserBasedOnSessionID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateConnectionID">
+      <soap:operation soapAction="http://tempuri.org/IRepository/updateConnectionID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getOnlineUsers">
+      <soap:operation soapAction="http://tempuri.org/IRepository/getOnlineUsers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="removeUser">
+      <soap:operation soapAction="http://tempuri.org/IRepository/removeUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Repository">
+    <wsdl:port name="BasicHttpBinding_IRepository" binding="tns:BasicHttpBinding_IRepository">
+      <soap:address location="http://localhost:8095/Repository.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="Calculator.html"  title="Calculator Application" width="40px" height="900px" />
+  <image src="Calculator.png" />
+  <APIS>
+    <lib filename="onDemand.dll"/>
+  </APIS>
+  <layouts>
+	<layout filename="CalculatorPlus.html" >Calculator Plus</layout>
+	<layout filename="Calculator.html" >Main Calulator</layout>
+ </layouts>
+</applicationConfig>

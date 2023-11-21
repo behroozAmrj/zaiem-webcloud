@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LogService>
+  <Fields>
+    <Main>
+      <Service type="1" />
+      <user type="1" />
+      <ip type="1" />
+      <timestamp type="1" />
+    </Main>
+    <Extra>
+      <request type="1" />
+      <response type="1" />
+    </Extra>
+  </Fields>
+  <Objects>
+    <object ID="1">
+      <Service>service1</Service>
+      <user>admin</user>
+      <ip>127.0.0.1</ip>
+      <timestamp>0</timestamp>
+      <request>1</request>
+      <response>1000</response>
+    </object>
+  </Objects>
+</LogService>

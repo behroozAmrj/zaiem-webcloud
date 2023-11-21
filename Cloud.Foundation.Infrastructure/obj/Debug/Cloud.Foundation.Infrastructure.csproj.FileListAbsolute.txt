@@ -1,0 +1,9 @@
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Debug\log4net.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Debug\OS_SDK.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Debug\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\bin\Debug\log4net.xml
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.Foundation.Infrastructure\obj\Debug\Cloud.Foundation.Infrastructure.csprojResolveAssemblyReference.cache

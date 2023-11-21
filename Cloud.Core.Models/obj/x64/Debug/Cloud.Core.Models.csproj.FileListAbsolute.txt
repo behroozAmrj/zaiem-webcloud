@@ -1,0 +1,17 @@
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.Core.Models.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.Core.Models.pdb
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.IO.Repository.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.IO.WSControlCenter.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.Log.Tracking.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\log4net.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\OS_SDK.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\zStack_SDK.dll
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.IO.Repository.pdb
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.IO.WSControlCenter.pdb
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\Cloud.Log.Tracking.pdb
+D:\APPs\Cloud\Cloud.Core.Models\bin\x64\Debug\log4net.xml
+D:\APPs\Cloud\Cloud.Core.Models\obj\x64\Debug\Cloud.Core.Models.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.Core.Models\obj\x64\Debug\Cloud.Core.Models.dll
+D:\APPs\Cloud\Cloud.Core.Models\obj\x64\Debug\Cloud.Core.Models.pdb

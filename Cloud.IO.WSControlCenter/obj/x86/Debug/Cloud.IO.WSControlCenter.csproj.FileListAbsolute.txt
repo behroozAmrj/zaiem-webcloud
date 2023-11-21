@@ -1,0 +1,15 @@
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\Cloud.IO.WSControlCenter.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\Cloud.IO.WSControlCenter.pdb
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\log4net.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\zStack_SDK.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\OS_SDK.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\log4net.xml
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\zStack_SDK.pdb
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\zStack_SDK.xml
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\bin\x86\Debug\OS_SDK.pdb
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\obj\x86\Debug\Cloud.IO.WSControlCenter.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\obj\x86\Debug\Cloud.IO.WSControlCenter.dll
+D:\APPs\Cloud\Cloud.IO.WSControlCenter\obj\x86\Debug\Cloud.IO.WSControlCenter.pdb

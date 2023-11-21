@@ -1,0 +1,17 @@
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\Cloud.IO.NetworkService.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\Cloud.IO.NetworkService.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\OS_SDK.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\obj\Release\Cloud.IO.NetworkService.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.IO.NetworkService\obj\Release\Cloud.IO.NetworkService.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\obj\Release\Cloud.IO.NetworkService.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\WebSocket4Net.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\SuperSocket.ClientEngine.Protocol.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\SuperSocket.ClientEngine.Core.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\SuperSocket.ClientEngine.Common.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\Newtonsoft.Json.xml
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\SuperSocket.ClientEngine.Protocol.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\SuperSocket.ClientEngine.Core.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Release\SuperSocket.ClientEngine.Common.pdb

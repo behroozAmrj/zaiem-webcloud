@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[Cloud.IU.WEB]Cloud.IU.WEB.Models.Tracker">
+    <Instance Declaration="#2=M:[Cloud.IU.WEB]Cloud.IU.WEB.Controllers.SecurityController::NewLogin()" Id="8591527e7e1045ed">
+      <Target>
+        <JoinPoint Description="#3=Wrapped by advice(s) OnEntry, OnSuccess, OnException, OnExit" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[Cloud.IU.WEB]Cloud.IU.WEB.Hubs.Security::Login(System.String, System.String, System.String, System.String, System.String, System.String)" Id="8591527e004dbc18">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5=M:[Cloud.IU.WEB]Cloud.IU.WEB.Models.Machine::DoWork()" Id="8591527e560d55df">
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

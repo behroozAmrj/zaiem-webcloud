@@ -1,0 +1,17 @@
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\Cloud.IO.NetworkService.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\Cloud.IO.NetworkService.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\WebSocket4Net.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\OS_SDK.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\obj\Debug\Cloud.IO.NetworkService.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\obj\Debug\Cloud.IO.NetworkService.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\SuperSocket.ClientEngine.Protocol.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\SuperSocket.ClientEngine.Core.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\SuperSocket.ClientEngine.Common.dll
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\Newtonsoft.Json.xml
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\SuperSocket.ClientEngine.Protocol.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\SuperSocket.ClientEngine.Core.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\bin\Debug\SuperSocket.ClientEngine.Common.pdb
+D:\APPs\Cloud\Cloud.IO.NetworkService\obj\Debug\Cloud.IO.NetworkService.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="zDrive.html"  title="Storage management" width="450px" height="400px" />
+  <image src="WorldofTanks.png" />
+  <APIS>
+    <lib filename="SampleCode.dll"/>
+  </APIS>
+  <services>
+ 							
+ </services>	
+</applicationConfig>

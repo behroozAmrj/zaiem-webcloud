@@ -1,0 +1,76 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SignUp</title>
+    <link href="~/Content/security.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+    <script src="~/Scripts/errorPanel.js"></script>
+    <script src="~/Scripts/Security.js"></script>
+    <style>
+        hr {
+            width:90%;
+            margin-top:10px;
+            color:white;
+        }
+        #panel {
+            background: none repeat scroll 0 0 white;
+            height: auto;
+            left: 1100px;
+            position: absolute;
+            top: -120px;
+            width: auto;
+            color: red;
+            box-sizing: border-box;
+            padding-left: 10px;
+            padding-right: 10px;
+            list-style: none;
+            border-color: #f44336;
+            border-style: solid;
+            border-width: 0.5px;
+            box-shadow: 0 0 7px 2px #ef9a9a;
+            border-radius: 10px;
+
+            min-height:20px;
+            min-width:100px;
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div id="signup_wrapper">
+        <img src="../images/x.jpg" class="inCenter" />
+
+        <div id="inputUserInfo">
+
+            <div class="inputFrame">
+                <input type="text" class="inputValue" id="userName"  placeholder="UserName" title="userName"/>
+            </div>
+            <div class="inputFrame">
+                <input type="password" class="inputValue" id="passWord" placeholder="Pasword" title="password" />
+            </div>
+            <div class="inputFrame">
+                <input type="password" class="inputValue" id="confirmPassword" placeholder="ConfirmPassword" title="ConfirmPassword" />
+            </div>
+
+            <div class="inputFrame">
+                <input type="email" class="inputValue" id="email" placeholder="email" title="email" />
+            </div>
+        </div>
+        <a href="/Security/NewLogin" style="padding-left:10px">cancel registration</a>
+        <hr />
+
+        <div id="errorMsg" class="errorPanel"></div>
+
+        <input type="button" value="register" class="submitt_btn_ok" />
+
+    </div>
+</body>
+</html>

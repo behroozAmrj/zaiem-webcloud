@@ -1,0 +1,50 @@
+﻿@model List<net.openstack.Core.Domain.Server>
+
+<table id="machine_gridView" class="">
+    <tr>
+        <td class="header_cell centerText"><input type="checkbox" id="checkAll" /></td>
+        <td class="header_cell centerText"><label>machine Name</label></td>
+        <td class="header_cell centerText"><label>state</label></td>
+        <td class="header_cell centerText"><label>Operation</label></td>
+    </tr>
+    @foreach (var machine in @Model)
+    {
+        <tr>
+                <td class="centerText"><input type="checkbox" id="@machine.Id+chechBox" /></td>
+                <td><a href="/MachineManagement/ViewMachine/@machine.Id" target="_blank">@machine.Name</a></td>
+                <td class="centerText"><span>@machine.Status.Name</span></td>
+
+            <td>
+                @switch (@machine.Status.Name.ToLower())
+                {
+                    case "active":
+                        {
+                            
+                            goto case "pause";
+                        }
+                    case "pause":
+                        {
+                            <div id="restartMachine" class="operation_btn restart" onclick="doOperation('@machine.Id' , 'restart')">
+                                restart
+                            </div>
+                            <div id="stopMachine" class="operation_btn stop" onclick="doOperation('@machine.Id' , 'stop')">
+                                stop
+                            </div>
+                            break;
+                        }
+                    case "shutoff":
+                        {
+                            <div id="powerOnMachine" class="operation_btn powerOn" onclick="doOperation('@machine.Id' , 'poweron')">
+                                PowerOn
+                            </div>
+                            break;
+                        }
+                }
+                <div id="deleteMachine" class="operation_btn delete" onclick="doOperation('@machine.Id' , 'delete')">
+                    delete
+                </div>
+            </td>
+
+        </tr>
+    }
+</table>

@@ -1,0 +1,10 @@
+D:\APPs\Cloud\Cloud.IO.Repository\bin\Debug\Cloud.IO.Repository.dll.config
+D:\APPs\Cloud\Cloud.IO.Repository\bin\Debug\Cloud.IO.Repository.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\Debug\Cloud.IO.Repository.pdb
+D:\APPs\Cloud\Cloud.IO.Repository\bin\Debug\Cloud.Foundation.Infrastructure.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\Debug\OS_SDK.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\Debug\Newtonsoft.Json.dll
+D:\APPs\Cloud\Cloud.IO.Repository\bin\Debug\Cloud.Foundation.Infrastructure.pdb
+D:\APPs\Cloud\Cloud.IO.Repository\obj\Debug\Cloud.IO.Repository.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\Cloud.IO.Repository\obj\Debug\Cloud.IO.Repository.dll
+D:\APPs\Cloud\Cloud.IO.Repository\obj\Debug\Cloud.IO.Repository.pdb

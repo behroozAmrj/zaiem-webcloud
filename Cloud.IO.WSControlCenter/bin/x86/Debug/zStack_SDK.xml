@@ -1,0 +1,342 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>zStack_SDK</name>
+    </assembly>
+    <members>
+        <member name="T:CRC_SDK.Classes.NewzServer">
+            <summary>
+            New zServer class
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zFlavor">
+            <summary>
+            zFlavor class
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zFlavorList">
+            <summary>
+            zFlavorList class
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zImage">
+            <summary>
+            zImage class
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zImageList">
+            <summary>
+            zImageList class
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zServer">
+            <summary>
+            zServer class
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zServerList">
+            <summary>
+            zServerList class
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zStack">
+            <summary>
+            zStack class
+            </summary>
+        </member>
+        <member name="F:CRC_SDK.Classes.zStack.Settings">
+            <summary>
+            Uses to pass through the arguments between operating classes.
+            </summary>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.Login(System.String,System.String,System.String,System.String)">
+            <summary>
+            Login to the Cloud.
+            </summary>
+            <remarks>
+            This method doesn't return any value. If logged in successfully triggers On_Login event, else triggers On_Login_Error event.
+            </remarks>
+            <param name="Username">The Username value</param>
+            <param name="Password">The Password value</param>
+            <param name="Tenantname">The Tenant value</param>
+            <param name="CloudIP">The Cloud server IP address value</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.refreshServersList">
+            <summary>
+            This method uses for refreshing list of all instances - contains running,stopped and failed instances;
+            </summary>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getImagesList">
+            <summary>
+            Get zImages' list value returned by <see cref="T:CRC_SDK.Classes.zImageList"/> zImagesList;
+            </summary>
+            <returns>List of <see cref="T:CRC_SDK.Classes.zImage"/>zImages</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.refreshImagesList">
+            <summary>
+            This method uses for refreshing list of all images;
+            </summary>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.refreshFlavorsList">
+            <summary>
+            This method uses for refreshing list of flavores;
+            </summary>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getServersList">
+            <summary>
+            Get zServers' list value returned by <see cref="T:CRC_SDK.Classes.zServerList"/> zServersList;
+            </summary>
+            <returns>List of <see cref="T:CRC_SDK.Classes.zServer"/>zServers</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getFlavorsList">
+            <summary>
+            Get zFlavors' list value returned by <see cref="T:CRC_SDK.Classes.zFlavorList"/> zFlavorsList;
+            </summary>
+            <returns>List of <see cref="T:CRC_SDK.Classes.zFlavor"/>zFlavors</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getServerStatusByID(System.String)">
+            <summary>
+            Get status of instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+            <returns>Status of instance</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getServerIDByName(System.String)">
+            <summary>
+            Get ID of instance.
+            </summary>
+            <param name="Name">The instance's name</param>
+            <returns>ID string of instance</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getServerNameByID(System.String)">
+            <summary>
+            Get name of instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+            <returns>Name of instance</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getServerByID(System.String)">
+            <summary>
+            Get zServer.
+            </summary>
+            <param name="ID">The instance's ID</param>
+            <returns>Determined zServer object of instance</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.getServerByName(System.String)">
+            <summary>
+            Get zServer.
+            </summary>
+            <param name="ID">The instance's name</param>
+            <returns>Determined zServer object of instance</returns>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.UnPauseServerByID(System.String)">
+            <summary>
+            Unpause instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.UnPauseServerByName(System.String)">
+            <summary>
+            Pause instance.
+            </summary>
+            <param name="Name">The instance's name</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.UnPauseServer(CRC_SDK.Classes.zServer)">
+            <summary>
+            Unpause instance.
+            </summary>
+            <param name="Server">The zServer object</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.PauseServerByID(System.String)">
+            <summary>
+            Pause instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.PauseServerByName(System.String)">
+            <summary>
+            Pause instance.
+            </summary>
+            <param name="Name">The instance's name</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.PauseServer(CRC_SDK.Classes.zServer)">
+            <summary>
+            Pause instance.
+            </summary>
+            <param name="Server">The zServer object</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.RebootServerByID(System.String)">
+            <summary>
+            Reboot instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.RebootServerByName(System.String)">
+            <summary>
+            Reboot instance.
+            </summary>
+            <param name="Name">The instance's name</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.RebootServer(CRC_SDK.Classes.zServer)">
+            <summary>
+            Reboot instance.
+            </summary>
+            <param name="Server">The zServer object</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.DeleteServerByID(System.String)">
+            <summary>
+            Delete instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.DeleteServerByName(System.String)">
+            <summary>
+            Delete instance.
+            </summary>
+            <param name="Name">The instance's name</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.DeleteServer(CRC_SDK.Classes.zServer)">
+            <summary>
+            Delete instance.
+            </summary>
+            <param name="Server">The zServer object</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.CreateServer(CRC_SDK.Classes.NewzServer)">
+            <summary>
+            Create instance.
+            </summary>
+            <param name="Server">The zServer object</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.StartServerByName(System.String)">
+            <summary>
+            Start(Turn on) instance.
+            </summary>
+            <param name="Name">The instance's name</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.StartServerByID(System.String)">
+            <summary>
+            Start(Turn on) instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.StartServer(CRC_SDK.Classes.zServer)">
+            <summary>
+            Start(Turn on) instance.
+            </summary>
+            <param name="Server">The zServer object</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.TerminateServer(CRC_SDK.Classes.zServer)">
+            <summary>
+            Terminate(Turn off) instance.
+            </summary>
+            <param name="Server">The zServer object</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.TerminateServerByID(System.String)">
+            <summary>
+            Terminate(Turn off) instance.
+            </summary>
+            <param name="ID">The instance's ID</param>
+        </member>
+        <member name="M:CRC_SDK.Classes.zStack.TerminateServerByName(System.String)">
+            <summary>
+            Terminate(Turn off) instance.
+            </summary>
+            <param name="Name">The instance's name</param>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Login">
+            <summary>
+            Successful login event.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Login_Error">
+            <summary>
+            Unsuccessful login event.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Terminated_Server">
+            <summary>
+            This event triggered when instance powered off(terminated) successfully.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Terminating_Server">
+            <summary>
+            This event triggered when instance starting to power off.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Started_Server">
+            <summary>
+            This event triggered when instance powered on(started) successfully.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Starting_Server">
+            <summary>
+            This event triggered when instance starting to power on.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Paused_Server">
+            <summary>
+            This event triggered when instance paused successfully.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Pausing_Server">
+            <summary>
+            This event triggered when instance starting to pause.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_UnPaused_Server">
+            <summary>
+            This event triggered when instance unpaused successfully.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_UnPausing_Server">
+            <summary>
+            This event triggered when instance starting to unpause.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Rebooted_Server">
+            <summary>
+            This event triggered when instance rebooted successfully.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Rebooting_Server">
+            <summary>
+            This event triggered when instance starting to reboot.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Deleted_Server">
+            <summary>
+            This event triggered when instance deleted successfully.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Deleting_Server">
+            <summary>
+            This event triggered when instance starting to delete.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Error_Delete_Server">
+            <summary>
+            This event triggered when an error occured while instance deleting.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Created_Server">
+            <summary>
+            This event triggered when instance created successfully.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Creating_Server">
+            <summary>
+            This event triggered when instance starting to create.
+            </summary>
+        </member>
+        <member name="E:CRC_SDK.Classes.zStack.On_Error_Create_Server">
+            <summary>
+            This event triggered when an error occured while instance creating.
+            </summary>
+        </member>
+        <member name="T:CRC_SDK.Classes.zStack_Settings">
+            <summary>
+            zStack_Settings class
+            </summary>
+        </member>
+    </members>
+</doc>

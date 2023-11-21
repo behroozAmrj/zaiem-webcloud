@@ -1,0 +1,3378 @@
+<Logging>
+  <event dateTime="12/14/2015 6:38:34 PM" type="exception">
+    <content extra="">The process cannot access the file 'D:\APPs\Cloud\MessageServer\LogStore\mLogStore.xml' because it is being used by another process.</content>
+  </event>
+  <event dateTime="12/14/2015 6:38:34 PM" type="exception">
+    <content extra="">Cannot insert the node in the specified location.</content>
+  </event>
+  <event dateTime="12/14/2015 6:39:55 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:39:55 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:40:02 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:40:02 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:40:10 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:40:10 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:40:47 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:40:47 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:41:10 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:41:10 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:55:21 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 6:55:21 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 7:08:00 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/14/2015 7:08:00 PM" type="info">
+    <content extra="System.String[]">this is test case</content>
+  </event>
+  <event dateTime="12/19/2015 11:35:05 AM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="12/19/2015 11:37:05 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:38:42 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:40:43 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:44:50 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:46:08 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:46:18 AM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="12/19/2015 11:46:47 AM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="12/19/2015 11:47:23 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:51:27 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:51:54 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:54:19 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 11:56:03 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/19/2015 1:22:08 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"No user is available","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/19/2015 1:22:17 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"No user is available","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/19/2015 1:46:47 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"No user is available","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/19/2015 1:47:27 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"No user is available","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/19/2015 1:47:49 PM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found.</content>
+  </event>
+  <event dateTime="12/19/2015 2:25:46 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/19/2015 2:25:46 PM" type="exception">
+    <content extra="">url is null or empty</content>
+  </event>
+  <event dateTime="12/19/2015 2:26:20 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/19/2015 2:26:20 PM" type="exception">
+    <content extra="">url is null or empty</content>
+  </event>
+  <event dateTime="12/19/2015 2:33:42 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/19/2015 2:35:04 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:16:40 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:16:40 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:17:12 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:17:12 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:17:55 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:17:55 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:18:22 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:18:22 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:19:42 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:19:54 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:20:51 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:21:00 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:21:30 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:21:45 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:21:45 AM" type="exception">
+    <content extra="">Value cannot be null.
+Parameter name: requestUriString</content>
+  </event>
+  <event dateTime="12/20/2015 11:22:11 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:22:21 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:22:21 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:22:37 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:22:49 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:23:15 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:23:21 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:23:34 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:23:41 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:23:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:05 AM" type="exception">
+    <content extra="">No MediaTypeFormatter is available to read an object of type 'Message' from content with media type 'text/plain'.</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:17 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:34 AM" type="exception">
+    <content extra="">No MediaTypeFormatter is available to read an object of type 'Message' from content with media type 'text/plain'.</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:42 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:44 AM" type="info">
+    <content extra="no target">ll</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:44 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:55 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:24:56 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:24:56 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:25:07 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:25:13 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:25:52 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:25:52 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:07 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:07 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:26:07 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:19 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:19 AM" type="info">
+    <content extra="no target">r</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:19 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:43 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:43 AM" type="info">
+    <content extra="no target">r</content>
+  </event>
+  <event dateTime="12/20/2015 11:26:43 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:28:01 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:28:10 AM" type="info">
+    <content extra="no target">r</content>
+  </event>
+  <event dateTime="12/20/2015 11:28:22 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:28:33 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:28:37 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:28:52 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:29:28 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:29:28 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:30:03 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:33:39 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:33:39 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:33:52 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:33:57 AM" type="exception">
+    <content extra="">One or more errors occurred.</content>
+  </event>
+  <event dateTime="12/20/2015 11:34:09 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:34:12 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="12/20/2015 11:34:14 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:35:19 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:35:31 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 11:35:34 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 11:43:13 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 11:43:13 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 11:43:41 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:26:15 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:26:15 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:26:45 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:26:49 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:26:49 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:28:09 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:31:54 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:31:54 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:32:31 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:33:18 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:33:18 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:34:11 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:35:04 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:35:04 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:36:07 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:36:11 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:36:11 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:37:51 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/20/2015 1:39:26 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:39:26 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:39:55 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:40:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:40:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:42:05 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/20/2015 1:43:53 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:43:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:44:24 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:44:28 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:44:28 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:46:08 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/20/2015 1:51:53 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:51:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:52:33 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:55:11 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:55:11 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:55:16 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:55:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:55:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:55:53 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:34 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:34 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:40 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:43 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:43 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:48 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:51 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:56:51 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:57:08 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 1:57:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 1:57:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 1:58:07 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:06:23 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:06:23 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:06:23 PM" type="exception">
+    <content extra="">Input string was not in a correct format.</content>
+  </event>
+  <event dateTime="12/20/2015 2:06:35 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:06:38 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:06:46 PM" type="exception">
+    <content extra="">Input string was not in a correct format.</content>
+  </event>
+  <event dateTime="12/20/2015 2:07:23 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:07:23 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:07:30 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:07:33 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:07:33 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:09:13 PM" type="exception">
+    <content extra="">The request was aborted: The operation has timed out.</content>
+  </event>
+  <event dateTime="12/20/2015 2:29:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:29:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:30:52 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/20/2015 2:32:31 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:32:31 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:32:47 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:33:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:33:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:33:21 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:16 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:16 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:25 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:28 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:28 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:33 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:35 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:35 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:35:50 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:36:06 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:36:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:36:20 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 2:36:47 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 2:36:47 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 2:36:59 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 3:27:23 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 3:27:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 3:27:53 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 3:28:58 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 3:29:48 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 3:29:48 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 4:28:47 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 4:28:51 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 4:29:09 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 4:29:13 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 4:29:13 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 4:29:22 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 4:30:18 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 4:30:18 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 4:30:55 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 6:01:04 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 6:01:04 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 6:01:28 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 6:02:04 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 6:02:04 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 6:02:16 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/20/2015 6:03:39 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/20/2015 6:03:39 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/20/2015 6:04:25 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 5:55:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 5:55:42 PM" type="exception">
+    <content extra="">Invalid property identifier character: \. Path 'Content', line 5, position 69.</content>
+  </event>
+  <event dateTime="12/22/2015 5:56:37 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 5:57:01 PM" type="exception">
+    <content extra="">Invalid property identifier character: \. Path 'Content', line 5, position 69.</content>
+  </event>
+  <event dateTime="12/22/2015 5:57:14 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 5:58:21 PM" type="exception">
+    <content extra="">Invalid property identifier character: \. Path 'Content', line 5, position 69.</content>
+  </event>
+  <event dateTime="12/22/2015 5:58:39 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 5:59:15 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"conIDf1019e56-51d8-4124-9955-3e7ec3fbc6a9","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:02:06 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:02:06 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:03:46 PM" type="exception">
+    <content extra="">The request was aborted: The operation has timed out.</content>
+  </event>
+  <event dateTime="12/22/2015 6:09:22 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:09:22 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:09:51 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:09:51 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:10:02 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:10:02 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:10:15 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:10:16 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:10:48 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:10:56 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:11:02 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/22/2015 6:11:30 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:11:32 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:11:33 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/22/2015 6:11:44 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/22/2015 6:11:56 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/22/2015 6:12:11 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:12:11 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:13:36 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:13:37 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:15:17 PM" type="exception">
+    <content extra="">The request was aborted: The operation has timed out.</content>
+  </event>
+  <event dateTime="12/22/2015 6:17:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:17:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:18:59 PM" type="exception">
+    <content extra="">The request was aborted: The operation has timed out.</content>
+  </event>
+  <event dateTime="12/22/2015 6:25:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:25:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:26:01 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:26:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:26:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:26:34 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:26:43 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:26:43 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:27:37 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:28:23 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:28:23 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:29:26 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:30:15 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:30:15 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:30:39 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:30:45 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:30:45 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:31:40 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:32:22 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:32:22 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:32:57 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:33:03 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:33:03 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:33:52 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:34:08 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:34:08 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:34:37 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:35:16 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:35:16 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:35:45 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:35:45 PM" type="exception">
+    <content extra="">After parsing a value an unexpected character was encountered: D. Path 'content', line 1, position 14.</content>
+  </event>
+  <event dateTime="12/22/2015 6:35:45 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:36:14 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:36:14 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:36:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:37:10 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"0b16a822-32b5-4d41-a0e2-7ba4df1273ed","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:37:13 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:37:21 PM" type="exception">
+    <content extra="">Error reading string. Unexpected token: StartObject. Path 'content', line 1, position 12.</content>
+  </event>
+  <event dateTime="12/22/2015 6:37:26 PM" type="exception">
+    <content extra="">The remote server returned an error: (501) Not Implemented.</content>
+  </event>
+  <event dateTime="12/22/2015 6:37:33 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/22/2015 6:39:11 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:39:15 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:39:41 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:40:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"0b16a822-32b5-4d41-a0e2-7ba4df1273ed","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:41:12 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/22/2015 6:41:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:41:12 PM" type="exception">
+    <content extra="">Error reading string. Unexpected token: StartObject. Path 'content', line 1, position 12.</content>
+  </event>
+  <event dateTime="12/22/2015 6:41:12 PM" type="exception">
+    <content extra="">The remote server returned an error: (501) Not Implemented.</content>
+  </event>
+  <event dateTime="12/22/2015 6:41:28 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:41:31 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:41:35 PM" type="exception">
+    <content extra="">Invalid URI: The format of the URI could not be determined.</content>
+  </event>
+  <event dateTime="12/22/2015 6:43:37 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:43:40 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:43:47 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:43:56 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"0b16a822-32b5-4d41-a0e2-7ba4df1273ed","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:44:44 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:44:44 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:44:47 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:44:47 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"63cdc5c7-8b81-4fd1-ac65-297c7c9c9199","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:49:40 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:49:40 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:49:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:49:42 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"7cf077fb-8af2-4448-aea3-5ef0569c8d48","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:51:14 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:51:14 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:51:16 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:51:16 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"67c62ed4-1193-4f52-aaf6-a33e15d700fe","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:53:53 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:53:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 6:53:55 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 6:53:55 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"26b5a7a0-3a15-41f8-835a-421b4c3b38dd","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:31:51 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:31:51 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:31:53 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:31:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"950d16f6-7e16-4924-9e8b-17261b424930","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:32:27 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:32:27 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:32:30 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:32:30 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"158ea787-0d73-4c4b-9d77-0a1b3545490e","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:17 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:17 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"c927b284-7947-4b07-ae55-cd06d5c95f26","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:33 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:33 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:33 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:33 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"c927b284-7947-4b07-ae55-cd06d5c95f26","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:33:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"c927b284-7947-4b07-ae55-cd06d5c95f26","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:34:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:34:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:34:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:34:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"c927b284-7947-4b07-ae55-cd06d5c95f26","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:35:34 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:35:34 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:35:34 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:35:34 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"48aa1e70-35ec-454c-b23c-4ade09b32a33","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:37:49 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:37:49 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:37:49 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:37:49 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"23afe3c4-663c-4b98-ba49-5891f1494304","Text":"hello my dear this is my message!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:42 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello behrooz!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:42 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"23afe3c4-663c-4b98-ba49-5891f1494304","Text":"hello behrooz!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello behrooz!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:38:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"23afe3c4-663c-4b98-ba49-5891f1494304","Text":"hello behrooz!"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:39:08 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:39:08 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello  !"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:39:08 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:39:08 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"23afe3c4-663c-4b98-ba49-5891f1494304","Text":"hello  !"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:40:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:40:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hello  !"}</content>
+  </event>
+  <event dateTime="12/22/2015 7:40:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/22/2015 7:40:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"23afe3c4-663c-4b98-ba49-5891f1494304","Text":"hello  !"}</content>
+  </event>
+  <event dateTime="12/23/2015 10:16:39 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:16:42 AM" type="exception">
+    <content extra="">Error reading string. Unexpected token: StartObject. Path 'content', line 5, position 12.</content>
+  </event>
+  <event dateTime="12/23/2015 10:17:06 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:17:51 AM" type="exception">
+    <content extra="">Error reading string. Unexpected token: StartObject. Path 'Content', line 5, position 12.</content>
+  </event>
+  <event dateTime="12/23/2015 10:18:12 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:18:55 AM" type="exception">
+    <content extra="">Unexpected character encountered while parsing value: \. Path 'Content', line 5, position 11.</content>
+  </event>
+  <event dateTime="12/23/2015 10:19:03 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:19:19 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 10:19:36 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:19:39 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"acbbc716-a2c4-4981-a535-b1a915b9f4e7","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 10:21:29 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:21:31 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 10:21:33 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:21:33 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"acbbc716-a2c4-4981-a535-b1a915b9f4e7","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 10:28:22 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:28:22 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 10:30:02 AM" type="exception">
+    <content extra="">The request was aborted: The operation has timed out.</content>
+  </event>
+  <event dateTime="12/23/2015 10:30:51 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 10:30:51 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"acbbc716-a2c4-4981-a535-b1a915b9f4e7","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:02:22 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:02:22 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:03:21 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error.</content>
+  </event>
+  <event dateTime="12/23/2015 11:16:42 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:16:42 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:16:54 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:16:54 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"No user is available","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:10 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:10 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:12 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:12 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"25743a39-da6c-4e45-90e8-1aee47136da6","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:34 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:34 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:37 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:18:37 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"25743a39-da6c-4e45-90e8-1aee47136da6","Text":"hell message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:24:53 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:24:53 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:24:53 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:24:53 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"25743a39-da6c-4e45-90e8-1aee47136da6","Text":"hell message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:02 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:02 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"helllllll message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:02 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:02 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"25743a39-da6c-4e45-90e8-1aee47136da6","Text":"helllllll message!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:18 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:18 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:18 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 11:25:18 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"25743a39-da6c-4e45-90e8-1aee47136da6","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:18:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:18:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:18:09 PM" type="exception">
+    <content extra="">Unable to connect to the remote server</content>
+  </event>
+  <event dateTime="12/23/2015 4:20:22 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:20:22 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:20:24 PM" type="exception">
+    <content extra="">Unable to connect to the remote server</content>
+  </event>
+  <event dateTime="12/23/2015 4:21:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:21:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:21:27 PM" type="exception">
+    <content extra="">Unable to connect to the remote server</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:04 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:04 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:09 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:09 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"beec16a6-085e-4aae-8cf2-2df179d3362d","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"beec16a6-085e-4aae-8cf2-2df179d3362d","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:20 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:20 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:20 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:20 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"beec16a6-085e-4aae-8cf2-2df179d3362d","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"beec16a6-085e-4aae-8cf2-2df179d3362d","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 4:22:21 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"beec16a6-085e-4aae-8cf2-2df179d3362d","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:22 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:22 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:22 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:22 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"29294cfc-183c-495b-8b39-8b59327c68be","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:26 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:26 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:26 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:17:26 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"29294cfc-183c-495b-8b39-8b59327c68be","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:19:33 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:19:33 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:19:33 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:19:33 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"29294cfc-183c-495b-8b39-8b59327c68be","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"3ad401be-561d-4cc5-9077-868051f141eb","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:53 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:53 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:26:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"3ad401be-561d-4cc5-9077-868051f141eb","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:27:38 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:27:38 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:27:38 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:27:38 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"6977b310-6716-4e88-aa34-ee8a1b3715fa","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:31 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:31 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:31 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:31 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"c76921f1-2842-4b90-ac07-c42b2aa2dcd8","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:58 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:28:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"548304b2-00ca-4f6e-b4d2-de7751ce7c77","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:33:39 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:33:39 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:33:39 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:33:39 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"3d535d35-664e-4238-8834-e54c88d31942","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:34:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:34:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/23/2015 6:34:19 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/23/2015 6:34:19 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d3532e32-91dd-4c17-96db-9223c36efcac","Text":"سلام من بهروز هستمmessage!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:31:20 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:31:21 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:31:21 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:31:21 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"931bed94-93ce-45b9-b7fe-560e4db0f435","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:24 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:24 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:24 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:24 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"931bed94-93ce-45b9-b7fe-560e4db0f435","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:25 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:25 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:25 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:25 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"931bed94-93ce-45b9-b7fe-560e4db0f435","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:26 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:26 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:26 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:33:26 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"931bed94-93ce-45b9-b7fe-560e4db0f435","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:46 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:46 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:46 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:46 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"5babadf2-1a75-48a9-9e5f-cd6858af0a25","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:59 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:59 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:59 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:46:59 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"655e7e3f-670e-4ea0-a9e9-80c244288ab0","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:11 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:11 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:11 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:11 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"e7904456-fd50-423f-8c67-70758b6ca85c","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:41 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:41 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:41 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:47:41 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"54173aa7-0d95-4e47-882a-258bcc6d75c8","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:13 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:13 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:13 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:13 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"4faba45a-3936-492a-9ac0-3b5255f92783","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:39 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:39 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:39 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:48:39 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d9dc4dae-fa23-4df2-8f64-86ea560f9a22","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:22 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:22 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:22 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:22 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"4d6fe902-5633-4ef8-a73c-d2b2fa784a2a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:27 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:27 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:27 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:49:27 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"4d6fe902-5633-4ef8-a73c-d2b2fa784a2a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:24 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:24 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:24 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:24 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"4d6fe902-5633-4ef8-a73c-d2b2fa784a2a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:52 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:52 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:52 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:50:52 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"5aaf017b-edd6-4684-92c1-61e3d0085cdb","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:00 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:00 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:00 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:00 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"7c1a993a-17b0-4d8f-aa3e-a9c333024a01","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:05 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:05 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:05 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 10:52:05 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"7c1a993a-17b0-4d8f-aa3e-a9c333024a01","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:17 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:17 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:17 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:17 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"6c069353-ab7e-473a-9daf-e4ea8208cb2a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:49 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:49 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:49 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:05:49 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"6c069353-ab7e-473a-9daf-e4ea8208cb2a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:11 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:11 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:11 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:11 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"69406364-2c35-43e0-950d-4a40785d9535","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:16 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:16 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:16 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:07:16 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"69406364-2c35-43e0-950d-4a40785d9535","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:08:15 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:08:15 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:08:15 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:08:15 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:57 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:13:58 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"143042a0-38be-47de-93e4-f04c6b209097","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:24 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:24 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:24 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:24 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"386e9e41-f5af-4d71-a2e5-cd71f8a75731","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:42 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:42 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:43 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:29:43 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"386e9e41-f5af-4d71-a2e5-cd71f8a75731","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:30:01 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:30:01 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 11:30:01 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 11:30:01 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"386e9e41-f5af-4d71-a2e5-cd71f8a75731","Text":"hell behrooz wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:41:37 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:41:37 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:41:39 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:41:39 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"No user is available","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:01 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:01 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:01 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:01 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:42:59 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 12:43:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"cdac6594-bc98-4cc6-8c9d-d6a17517b5b2","Text":"hell wherer u?!"}</content>
+  </event>
+  <event dateTime="12/24/2015 2:39:32 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 2:39:32 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 2:39:35 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 2:39:35 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"8a539ae5-1187-4b7f-b446-1e9329609335","Text":"hell behrooz message!","userList":[{"ConnectionID":"8a539ae5-1187-4b7f-b446-1e9329609335","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"c5dd2e9ac616462e90b833dc6b856f14","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"cd47bef9adbd49598dd98ae0952b2f26"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:44:18 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:44:18 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:44:18 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:44:18 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Text":"hell behrooz message!","userList":[{"ConnectionID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:45:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:45:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:45:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:45:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Text":"hell behrooz message!","userList":[{"ConnectionID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:46:52 PM" type="exception">
+    <content extra="">The request was aborted: The operation has timed out.</content>
+  </event>
+  <event dateTime="12/24/2015 3:46:52 PM" type="exception">
+    <content extra="">The operation has timed out</content>
+  </event>
+  <event dateTime="12/24/2015 3:49:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:49:42 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:49:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:49:42 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Text":"hell behrooz message!","userList":[{"ConnectionID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Text":"hell behrooz message!","userList":[{"ConnectionID":"f959c52c-b4c5-4914-9477-3d948d2d7320","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:17 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:17 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:17 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:17 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:21 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:21 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:24 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:24 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:24 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:24 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:25 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:36 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:36 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:36 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:36 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:46 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:46 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:46 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/24/2015 3:50:46 PM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Text":"hell behrooz message!","userList":[{"ConnectionID":"bc3b75fe-18dd-4330-b5a3-75039edf89bf","Password":"123","Role":"admin","StorageURL":"http://172.18.23.218:8080/WebTest3/storage/aa/","Token":"b898d0c39b474de088826d0303858282","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":"bamiri1","zStoreTenant":"4b0d0d39f47643e9822992d332fc6b86","zStoreToken":"9abcaee73c0a41e493df5efb424fdca4"}]}</content>
+  </event>
+  <event dateTime="12/26/2015 10:22:27 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/26/2015 10:22:27 AM" type="exception">
+    <content extra="">Error reading string. Unexpected token: StartObject. Path 'Content', line 5, position 12.</content>
+  </event>
+  <event dateTime="12/26/2015 10:22:39 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/26/2015 10:22:46 AM" type="exception">
+    <content extra="">Error reading string. Unexpected token: StartObject. Path 'Content', line 5, position 12.</content>
+  </event>
+  <event dateTime="12/26/2015 10:22:49 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/26/2015 10:23:38 AM" type="exception">
+    <content extra="">Error reading string. Unexpected token: StartObject. Path 'Content', line 5, position 12.</content>
+  </event>
+  <event dateTime="12/26/2015 10:23:45 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/26/2015 10:23:49 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/26/2015 10:23:51 AM" type="exception">
+    <content extra="">Unable to connect to the remote server to:http://localhost:4558/ChatService/PostMessage</content>
+  </event>
+  <event dateTime="12/26/2015 10:23:54 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/26/2015 10:24:07 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/26/2015 10:24:16 AM" type="exception">
+    <content extra="">Unable to connect to the remote server to:http://localhost:4558/ChatService/PostMessage</content>
+  </event>
+  <event dateTime="12/26/2015 10:24:41 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="12/26/2015 10:24:44 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://localhost:5146/gateway/get","UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"hell behrooz message!"}</content>
+  </event>
+  <event dateTime="12/26/2015 10:24:46 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:http://localhost:9091/ChatService/PostMessage</content>
+  </event>
+  <event dateTime="1/2/2016 10:58:48 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 10:58:48 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 10:58:48 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://172.18.22.61:5146/gateway/get",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 10:58:48 AM" type="info">
+    <content extra="no target">{"DestinationURL":"http://172.18.22.61:5146/gateway/get",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 10:58:50 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:http://172.18.22.61:9091/ChatService/PostMessage</content>
+  </event>
+  <event dateTime="1/2/2016 10:58:50 AM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:http://172.18.22.61:9091/ChatService/PostMessage</content>
+  </event>
+  <event dateTime="1/2/2016 7:11:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:11:42 PM" type="exception">
+    <content extra="">
+    </content>
+  </event>
+  <event dateTime="1/2/2016 7:12:06 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:12:06 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:12:27 PM" type="exception">
+    <content extra="">Index (zero based) must be greater than or equal to zero and less than the size of the argument list. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:12:32 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:12:32 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:13:05 PM" type="exception">
+    <content extra="">Index (zero based) must be greater than or equal to zero and less than the size of the argument list. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:14:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:14:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:14:26 PM" type="exception">
+    <content extra="">Index (zero based) must be greater than or equal to zero and less than the size of the argument list. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:15:16 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:15:16 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:15:49 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:15:52 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:15:52 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:16:23 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:17:34 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:17:34 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:17:36 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:18:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:18:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:18:26 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:18:31 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:18:31 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:18:56 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:37:23 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:37:23 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:38:02 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:38:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:38:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:38:45 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:39:03 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:39:03 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:39:35 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:40:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:40:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:41:03 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:41:06 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:41:06 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:41:44 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/2/2016 7:42:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:42:12 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/2/2016 7:42:15 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/2/2016 7:42:15 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","ReceiverUserID":"d87e5a5a-6421-4a3f-baef-13147e6284ee","Text":"iwant go to pray","RecieverApp":"chat","userList":[{"ConnectionID":"d87e5a5a-6421-4a3f-baef-13147e6284ee","Password":null,"Role":null,"StorageURL":null,"Token":null,"UserID":"de9f7dd1d2cc43739ba93082bb3cc20d","UserName":"bamiri2","UserTenant":null,"zStoreTenant":null,"zStoreToken":null},{"ConnectionID":"1310c844-b127-4ad7-85be-bcbcc8222bff","Password":null,"Role":null,"StorageURL":null,"Token":null,"UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":null,"zStoreTenant":null,"zStoreToken":null}],"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 10:31:02 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 10:31:06 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 10:31:32 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 10:31:32 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 10:32:59 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 10:32:59 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 10:33:15 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 10:33:29 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"de9f7dd1d2cc43739ba93082bb3cc20d","Text":"hello","ReceiverUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 10:33:47 AM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 10:34:14 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 10:34:14 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"de9f7dd1d2cc43739ba93082bb3cc20d","Text":"hi","ReceiverUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 10:34:34 AM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 10:38:05 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 10:38:05 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 10:38:05 AM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 10:38:42 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 10:38:42 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"de9f7dd1d2cc43739ba93082bb3cc20d","Text":"hi","ReceiverUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 11:00:24 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 11:00:24 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"de9f7dd1d2cc43739ba93082bb3cc20d","Text":"hi","ReceiverUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 11:00:37 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 11:00:37 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"what happend to me now?","ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d","Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 4:57:38 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 4:57:46 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 4:58:00 PM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:10:01 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:10:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:10:15 PM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:50:14 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:50:18 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:50:24 PM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:50:40 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:50:46 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:51:35 PM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:52:05 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:52:06 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:52:17 PM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:52:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:52:22 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:53:59 PM" type="exception">
+    <content extra="">The remote server returned an error: (404) Not Found. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:54:42 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:54:44 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:54:56 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:55:06 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:55:09 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:55:57 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:56:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:56:07 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:56:52 PM" type="exception">
+    <content extra="">The remote server returned an error: (500) Internal Server Error. to:chat</content>
+  </event>
+  <event dateTime="1/3/2016 5:57:14 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:57:14 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:57:21 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:57:21 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","ReceiverUserID":"No user is available","Text":"iwant go to pray","RecieverApp":null,"userList":null,"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:57:51 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:57:51 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:58:13 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:58:22 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","ReceiverUserID":"No user is available","Text":"iwant go to pray","RecieverApp":null,"userList":null,"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:59:48 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:59:48 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 5:59:53 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 5:59:53 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","ReceiverUserID":"No user is available","Text":"iwant go to pray","RecieverApp":null,"userList":null,"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 6:00:43 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 6:00:43 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 6:00:43 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 6:00:43 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","ReceiverUserID":"No user is available","Text":"iwant go to pray","RecieverApp":null,"userList":null,"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 6:01:45 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 6:01:46 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"170e002aa852408d84799bc92e5fb2fc",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 6:02:01 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 6:02:01 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","ReceiverUserID":"No user is available","Text":"iwant go to pray","RecieverApp":null,"userList":null,"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 6:02:27 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 6:02:27 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 6:02:34 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 6:02:34 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","ReceiverUserID":"6e165063-6825-46f8-be6b-f0241b0bc9bc","Text":"iwant go to pray","RecieverApp":"chat","userList":[{"ConnectionID":"7273fbec-1a21-47d2-9350-adddd830a96f","Password":null,"Role":null,"StorageURL":null,"Token":null,"UserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","UserName":"bamiri1","UserTenant":null,"zStoreTenant":null,"zStoreToken":null},{"ConnectionID":"6e165063-6825-46f8-be6b-f0241b0bc9bc","Password":null,"Role":null,"StorageURL":null,"Token":null,"UserID":"de9f7dd1d2cc43739ba93082bb3cc20d","UserName":"bamiri2","UserTenant":null,"zStoreTenant":null,"zStoreToken":null}],"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/3/2016 6:31:43 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/3/2016 6:31:45 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/10/2016 2:20:02 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/10/2016 2:20:02 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/10/2016 2:20:04 PM" type="info">
+    <content extra="no target">{"AppName":"SayHelloRBS",
+                 "ClassName":"CodeBehind",
+                 "MethodName":"SayHelloTo",
+                 "Param":["hi"]}</content>
+  </event>
+  <event dateTime="1/10/2016 2:20:04 PM" type="info">
+    <content extra="no target">{"AppName":"SayHelloRBS",
+                 "ClassName":"CodeBehind",
+                 "MethodName":"SayHelloTo",
+                 "Param":["hi"]}</content>
+  </event>
+  <event dateTime="1/10/2016 2:20:12 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/10/2016 2:20:51 PM" type="info">
+    <content extra="no target">{"AppName":"SayHelloRBS",
+                 "ClassName":"CodeBehind",
+                 "MethodName":"SayHelloTo",
+                 "Param":["hi"]}</content>
+  </event>
+  <event dateTime="1/10/2016 2:21:45 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/10/2016 2:21:47 PM" type="info">
+    <content extra="no target">{"AppName":"SayHelloRBS",
+                 "ClassName":"CodeBehind",
+                 "MethodName":"SayHelloTo",
+                 "Param":["hi"]}</content>
+  </event>
+  <event dateTime="1/11/2016 11:42:40 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 11:42:40 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 11:43:25 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 11:43:40 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 11:45:04 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 11:45:04 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 11:47:30 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 11:47:30 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 11:50:44 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 11:50:44 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 11:56:01 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 11:56:02 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 12:00:44 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 12:00:44 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 12:02:02 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 12:02:02 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 12:03:24 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 12:03:24 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 12:04:10 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 12:04:10 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 1:42:46 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 1:42:46 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 1:43:44 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 1:43:44 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 1:46:03 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 1:46:03 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 1:47:36 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 1:47:36 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 1:51:08 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 1:51:08 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 3:30:55 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 3:30:55 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 3:33:58 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 3:33:58 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 3:34:08 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 3:34:08 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:03:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:03:00 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:03:29 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:03:29 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:05:34 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:05:34 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:06:16 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:06:16 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:19:27 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:19:27 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:21:01 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:21:01 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:21:56 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:21:56 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:23:27 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:23:27 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:24:47 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:24:47 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:25:28 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:25:28 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:27:10 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:27:10 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:29:43 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:29:43 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:30:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:30:07 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:30:33 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:30:33 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:32:03 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:32:03 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:33:01 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:33:01 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/11/2016 4:34:20 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/11/2016 4:34:20 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/17/2016 9:06:05 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 9:06:05 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/17/2016 9:07:02 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 9:07:02 AM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:06 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:06 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:47 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:47 PM" type="exception">
+    <content extra="">Value cannot be null.</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:55 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:55 PM" type="exception">
+    <content extra="">This document already has a 'DocumentElement' node.</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:56 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:10:56 PM" type="exception">
+    <content extra="">This document already has a 'DocumentElement' node.</content>
+  </event>
+  <event dateTime="1/17/2016 3:11:31 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:11:32 PM" type="exception">
+    <content extra="">This document already has a 'DocumentElement' node.</content>
+  </event>
+  <event dateTime="1/17/2016 3:14:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:14:16 PM" type="exception">
+    <content extra="">Value cannot be null.</content>
+  </event>
+  <event dateTime="1/17/2016 3:15:30 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:15:30 PM" type="exception">
+    <content extra="">Value cannot be null.</content>
+  </event>
+  <event dateTime="1/17/2016 3:15:50 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:16:31 PM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="1/17/2016 3:16:33 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:23:43 PM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="1/17/2016 3:24:44 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:24:44 PM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="1/17/2016 3:24:58 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:24:58 PM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="1/17/2016 3:25:29 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:25:47 PM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="1/17/2016 3:45:23 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:45:23 PM" type="exception">
+    <content extra="">Value cannot be null.</content>
+  </event>
+  <event dateTime="1/17/2016 3:45:31 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:45:31 PM" type="exception">
+    <content extra="">The process cannot access the file 'D:\APPs\Cloud\MessageServer\LogStore\transactionLog.xml' because it is being used by another process.</content>
+  </event>
+  <event dateTime="1/17/2016 3:46:09 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:46:09 PM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="1/17/2016 3:46:28 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:47:05 PM" type="exception">
+    <content extra="">Object reference not set to an instance of an object.</content>
+  </event>
+  <event dateTime="1/17/2016 3:49:31 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:49:31 PM" type="exception">
+    <content extra="">Value cannot be null.</content>
+  </event>
+  <event dateTime="1/17/2016 3:49:41 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:49:41 PM" type="exception">
+    <content extra="">The process cannot access the file 'D:\APPs\Cloud\MessageServer\LogStore\transactionLog.xml' because it is being used by another process.</content>
+  </event>
+  <event dateTime="1/17/2016 3:49:48 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:49:48 PM" type="exception">
+    <content extra="">The process cannot access the file 'D:\APPs\Cloud\MessageServer\LogStore\transactionLog.xml' because it is being used by another process.</content>
+  </event>
+  <event dateTime="1/17/2016 3:50:00 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/17/2016 3:50:00 PM" type="info">
+    <content extra="no target">{"DestinationURL":"webcloud",
+			"SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a",
+			"Text":"iwant go to pray" ,
+			"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d",
+			"Funcs":["send","getOnlineUsers"]}</content>
+  </event>
+  <event dateTime="1/21/2016 3:55:37 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 3:55:44 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:17:32 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:17:32 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:17:51 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:17:51 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:18:05 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:18:26 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:18:43 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:18:50 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:20:04 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:20:14 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:26:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:26:07 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:26:28 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:26:28 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:26:48 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:26:48 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 5:31:05 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 5:31:05 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 6:27:07 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 6:27:07 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 6:30:57 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 6:30:57 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 6:31:05 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 6:31:05 PM" type="info">
+    <content extra="no target">{"AppName":"onDemand","ClassName":"Calculator","MethodName":"Add","contructParams":[],"Param":[12,8]}</content>
+  </event>
+  <event dateTime="1/21/2016 6:38:46 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 6:38:46 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/21/2016 6:39:02 PM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/21/2016 6:39:02 PM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/23/2016 10:35:47 AM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+  <event dateTime="1/23/2016 10:36:31 AM" type="info">
+    <content extra="no target">new request</content>
+  </event>
+  <event dateTime="1/23/2016 10:36:39 AM" type="info">
+    <content extra="no target">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:09:11 PM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+  <event dateTime="1/24/2016 5:09:34 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:09:38 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:10:13 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:10:37 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:11:19 PM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+  <event dateTime="1/24/2016 5:11:19 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:11:27 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:11:39 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:12:06 PM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+  <event dateTime="1/24/2016 5:12:39 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:14:28 PM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+  <event dateTime="1/24/2016 5:14:28 PM" type="info">
+    <content extra="RestSender.Send">
+    </content>
+  </event>
+  <event dateTime="1/24/2016 5:15:35 PM" type="info">
+    <content extra="RestSender.Send">{"AppName":"onDemand","ClassName":"Calculator","MethodName":"Add","contructParams":[],"Param":[12,8]}</content>
+  </event>
+  <event dateTime="1/24/2016 5:15:49 PM" type="info">
+    <content extra="RestSender.Send">{"AppName":"onDemand","ClassName":"Calculator","MethodName":"Add","contructParams":[],"Param":[12,9]}</content>
+  </event>
+  <event dateTime="1/25/2016 11:06:08 AM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+  <event dateTime="1/25/2016 11:12:10 AM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+  <event dateTime="3/9/2016 4:20:01 PM" type="Exception">
+    <content extra="no target">XML choosed for data</content>
+  </event>
+  <event appName="ProxyService" UserID="serviceUser" dateTime="3/9/2016 4:26:24 PM" actionType="exception" action="postMsg">
+    <content>Error converting value ""{\"DeptURL\":\"webcloud\",\"DestinationURL\":\"chat\",\"Method\":\"PostMessage\",\"DateTime\":\"10:10:10am\",\"Content\":\"{\"DestinationURL\":\"webcloud\",\"SenderUserID\":\"d8ccf5a0be9c4a3ea5ca11a77716af7a\",\"Text\":\"iwant go to pray\" ,\"ReceiverUserID\":\"de9f7dd1d2cc43739ba93082bb3cc20d\", \"Funcs\":[\"send\",\"getOnlineUsers\"]}\" }"" to type 'MessageServer.Models.Message'. Path '', line 1, position 432.</content>
+  </event>
+  <event appName="ProxyService" UserID="serviceUser" dateTime="3/9/2016 4:30:04 PM" actionType="exception" action="postMsg">
+    <content>Error converting value "{"DeptURL":"webcloud","DestinationURL":"chat","Method":"PostMessage","DateTime":"10:10:10am","Content":"{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"iwant go to pray" ,"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d", "Funcs":["send","getOnlineUsers"]}" }" to type 'MessageServer.Models.Message'. Path '', line 1, position 344.</content>
+  </event>
+  <event appName="ProxyService" UserID="serviceUser" dateTime="3/9/2016 4:30:06 PM" actionType="exception" action="postMsg">
+    <content>Error converting value "{"DeptURL":"webcloud","DestinationURL":"chat","Method":"PostMessage","DateTime":"10:10:10am","Content":"{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"iwant go to pray" ,"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d", "Funcs":["send","getOnlineUsers"]}" }" to type 'MessageServer.Models.Message'. Path '', line 1, position 344.</content>
+  </event>
+  <event appName="ProxyService" UserID="serviceUser" dateTime="3/9/2016 4:31:26 PM" actionType="exception" action="postMsg">
+    <content>Error converting value "{"DeptURL":"webcloud","DestinationURL":"chat","Method":"PostMessage","DateTime":"10:10:10am","Content":"{"DestinationURL":"webcloud","SenderUserID":"d8ccf5a0be9c4a3ea5ca11a77716af7a","Text":"iwant go to pray" ,"ReceiverUserID":"de9f7dd1d2cc43739ba93082bb3cc20d", "Funcs":["send","getOnlineUsers"]} }" to type 'MessageServer.Models.Message'. Path '', line 1, position 342.</content>
+  </event>
+  <event appName="ProxyService" UserID="serviceUser" dateTime="3/9/2016 4:31:38 PM" actionType="exception" action="postMsg">
+    <content>Unable to connect to the remote server to:chat</content>
+  </event>
+  <event dateTime="3/9/2016 4:38:43 PM" type="Exception">
+    <content extra="no target">XML choosed for data</content>
+  </event>
+  <event dateTime="3/9/2016 4:41:56 PM" type="Exception">
+    <content extra="no target">XML choosed for data</content>
+  </event>
+  <event dateTime="3/9/2016 4:46:07 PM" type="Exception">
+    <content extra="no target">XML choosed for data</content>
+  </event>
+  <event dateTime="3/10/2016 8:57:01 AM" type="Exception">
+    <content extra="no target">XML choosed for data</content>
+  </event>
+  <event dateTime="3/12/2016 10:34:54 AM" type="Exception">
+    <content extra="no target">XML choosed for data</content>
+  </event>
+  <event dateTime="3/12/2016 5:11:25 PM" type="Exception">
+    <content extra="no target">XML choosed for data</content>
+  </event>
+  <event dateTime="4/11/2016 12:37:45 PM" type="info">
+    <content extra="no target">SQL choosed for data</content>
+  </event>
+</Logging>

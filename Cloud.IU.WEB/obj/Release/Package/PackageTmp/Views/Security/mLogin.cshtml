@@ -1,0 +1,237 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Metro, a sleek, intuitive, and powerful framework for faster and easier web development for Windows Metro Style.">
+    <meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, metro, front-end, frontend, web development">
+    <meta name="author" content="Sergey Pimenov and Metro UI CSS contributors">
+
+    <link rel='shortcut icon' type='image/x-icon' href='../favicon.ico' />
+
+    <title>Login to WebCloud</title>
+
+    <link href="~/Content/metro.css" rel="stylesheet">
+    <link href="~/Content/metro-icons.css" rel="stylesheet">
+
+    <script src="~/Scripts/jquery-2.1.3.min.js"></script>
+    <script src="~/Scripts/metro.js"></script>
+    <script src="~/Scripts/jquery.signalR-1.1.3.js"></script>
+    <script src="/signalr/hubs"></script>
+
+
+    <style>
+        .login-form {
+            width: 25rem;
+            height: 19.75rem;
+            position: fixed;
+            top: 50%;
+            margin-top: -9.375rem;
+            left: 50%;
+            margin-left: -12.5rem;
+            background-color: #ffffff;
+            opacity: 0;
+            -webkit-transform: scale(.8);
+            transform: scale(.8);
+        }
+
+        #preloaderbox {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            display: none;
+            margin: auto;
+        }
+
+        p {
+            color: red;
+            margin-left: 5px;
+            display: none;
+        }
+    </style>
+
+    <script>
+
+        /*
+        * Do not use this is a google analytics fro Metro UI CSS
+
+        if (window.location.hostname !== 'localhost') {
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-58849249-3', 'auto');
+            ga('send', 'pageview');
+
+        }
+         * */
+
+        $(function () {
+            var form = $(".login-form");
+
+            form.css({
+                opacity: 1,
+                "-webkit-transform": "scale(1)",
+                "transform": "scale(1)",
+                "-webkit-transition": ".5s",
+                "transition": ".5s"
+            });
+        });
+
+
+        $(document).ready(function () {
+
+            var check = $.connection.Security;
+
+            // $("#curtain").click(function () { $(this).slideUp(1000); });
+
+            $.connection.hub.start().done(function () {
+
+                $("#password").keyup(function (event) {
+
+                    var code = event.keyCode || event.witch;
+                    if (code == 13)
+                        login();
+                });
+
+                $("#login").click(function () {
+
+                    login();
+                });
+
+            }); // end of button and connetion to server function
+            check.client.response = function (credential) {
+                UIControl(0);
+                var msg = 'درخواست ورود شما مورد تایید قرار گرفت';
+                $("#Msg").text(msg);
+                var hostname = "http://" + location.hostname + ":" + location.port;
+
+                $.ajax({
+                    type: "POST",
+                    url: "/Security/RegisterUserIDInSession",
+                    contentType: "application/json; chartset=utf-8",
+                    datatype: "json",
+                    data: JSON.stringify({
+                        userID: credential
+                    }),
+                    success: function (data) {
+                        var returnPath = $("#returnPath").val();
+                        var path
+                        if (returnPath == "") {
+                            path = hostname + "/Start/Start_Screen/" + $("#sessionid").val() + "/" + credential;
+                        }
+                        else {
+                            path = hostname + returnPath + $("#sessionid").val() + "/" + credential;
+                        }
+
+                        window.location = path;
+                    },
+                });
+
+
+            }
+
+            check.client.onraiseError = function (msg) {
+                UIControl(0);
+                var Msg = $("#Msg");
+                Msg.css("display", "block");
+                Msg.text(msg);
+                $("#login").removeAttr("disabled");
+                //$("#submit").removeAttr("disabled");
+
+            }
+
+            function UIControl(command) {
+                if (command == 1)
+                    $("#preloaderbox").css("display",
+                                          "block");
+                else
+                    $("#preloaderbox").css("display",
+                                            "none");
+            }
+
+
+            function login() {
+                var Msg = $("#Msg");
+                Msg.css("display", "none");
+                Msg.text("");
+                var isValid = 1;
+                var empstr = '';
+                $("#errorMsg").text(empstr);
+                $("input[type='text'].element , input[type='password'].element ").each(function (index, value) {
+                    var val = $(value).val();
+                    if ((val == null) ||
+                        (val == "")) {
+                        var msg = ' مقدار ' + $(value).attr("title") + ' پرنشده ';
+                        $("#Msg").text(msg);
+                        isValid = 0;
+                        return (false);
+                    }
+
+                });
+
+                if (isValid == 0)
+                    return;
+                var ConnectionID = $.connection.hub.id;
+                $(this).attr("disabled",
+                                "disabled");
+                var UserName = $("#username").val();
+                var Password = $("#password").val();
+                var cloudUserName = "aa";// $("#groupname").val();
+                var cloudPassword = "123";//$("#cloudAddress").val();
+                var SessionID = $("#sessionid").val();
+                $("#preloaderbox").css("display",
+                                      "block");
+                check.server.Login(UserName,
+                                   Password,
+                                   cloudUserName,
+                                   cloudPassword,
+                                   ConnectionID,
+                                   SessionID);
+            }
+
+
+        });  // end of document.ready function
+
+    </script>
+</head>
+<body class="bg-darkTeal">
+    <div class="login-form padding20 block-shadow">
+        <input type="hidden" id="sessionid" value="@ViewBag.sessionid" />
+        <input type="hidden" id="returnPath" value="@ViewBag.returnPath" />
+        <h1 class="text-light">Login to WebCloud</h1>
+        <hr class="thin" />
+        <br />
+        <div class="input-control text full-size" data-role="input">
+            <label for="user_login">User name:</label>
+            <input type="text" name="user_login" id="username">
+            <button class="button helper-button clear"><span class="mif-cross"></span></button>
+        </div>
+        <br />
+        <br />
+        <div class="input-control password full-size" data-role="input">
+            <label for="user_password">User password:</label>
+            <input type="password" name="user_password" id="password">
+            <button class="button helper-button reveal"><span class="mif-looks"></span></button>
+        </div>
+        <br />
+        <br />
+        <div class="form-actions">
+            <input type="button" class="button primary" value="Login to..." id="login" />
+            <a href="/Security/SignUp_Load">register new user</a>
+            <p id="Msg"></p>
+        </div>
+
+    </div>
+
+    <img id="preloaderbox" src="../Images/257.gif" />
+</body>
+</html>

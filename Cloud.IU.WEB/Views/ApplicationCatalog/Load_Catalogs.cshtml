@@ -1,0 +1,44 @@
+﻿@model List<Cloud.Foundation.Infrastructure.IAppCatalog>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Load_Catalogs</title>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Destination</td>
+                <td>Departure</td>
+                <td>appType</td>
+                <td>Opreration</td>
+            </tr>
+            @foreach (var app in Model)
+            {
+                <tr>
+                    <td>
+                        @app.Name
+                    </td>
+                    <td>
+                        @app.Departure
+                    </td>
+                    <td>
+                        @app.Scope
+                    </td>
+                    <td>
+                        @app.appCatalog
+                    </td>
+                    <td><a href="/ApplicationCatalog/InstallApplicationForUser?userID=@ViewBag.userID&appName=@app.Name&appType=@app.appCatalog">install</a></td>
+                </tr>
+            }
+        </table>
+    </div>
+</body>
+</html>

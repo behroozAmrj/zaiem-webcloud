@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="StickyNotes.html" title="Sticky Notes" width="600px" height="600px" />
+  <image src="stickynote_Icon.png" />
+  <APIS>
+    <lib filename="StickyNoteClassLibrary.dll" />
+  </APIS>
+  <service>
+    
+  </service>
+</applicationConfig>

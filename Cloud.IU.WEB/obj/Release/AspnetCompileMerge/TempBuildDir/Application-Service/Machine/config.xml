@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appconfig>
+  <image src="cloudserver.jpg" />
+  <layouts height="400px" width="900px" >
+    <layout filename="first.aspx" >first</layout>
+    <layout filename="second.aspx" >second</layout>
+    <layout filename="third.aspx" >thrid</layout>
+    <layout filename="fourth.aspx" >fourth</layout>	
+    <layout filename="fifth.aspx" >Fifth</layout>
+    <layout filename="DeskTop_02.html" >NewLogin</layout>
+  </layouts>
+</appconfig>

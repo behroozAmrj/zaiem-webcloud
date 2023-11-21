@@ -1,0 +1,6 @@
+D:\APPs\Cloud\StressTest\bin\Debug\WebTest1.webtest
+D:\APPs\Cloud\StressTest\bin\Debug\StressTest.dll
+D:\APPs\Cloud\StressTest\bin\Debug\StressTest.pdb
+D:\APPs\Cloud\StressTest\obj\Debug\StressTest.csprojResolveAssemblyReference.cache
+D:\APPs\Cloud\StressTest\obj\Debug\StressTest.dll
+D:\APPs\Cloud\StressTest\obj\Debug\StressTest.pdb

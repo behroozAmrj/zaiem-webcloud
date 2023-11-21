@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<h1><input name="addNoteBtn" type="button" value="Add" onclick="add();" />&nbsp;&nbsp;<input name="notetxf" type="text" value="my note" /></h1>
+
+
+<script src="../../RunBridge.js" type="text/javascript"></script>
+
+  <script>
+	function add(){
+					var data = [document.getElementById('notetxf').value];
+					excute_Method("StickyNotesRBS", "StickyNoteCodeBehind", "AddNote", data, showOK, null);
+					function showOK()
+						{
+							alert("Done!");
+						}
+				}
+  </script>
+</body>
+</html>

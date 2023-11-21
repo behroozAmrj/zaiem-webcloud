@@ -1,0 +1,92 @@
+﻿<html>
+<head>
+    <title>zDrive</title>
+    <script type="text/javascript" src="JCode/jquery.js"></script>
+    
+    <script type="text/javascript" src="JCode/zDriveRequest.js"></script>
+    <script type="text/javascript" src="JCode/ElementBuilder.js"></script>
+    <script type="text/javascript" src="JCode/navBarBuilder.js"></script>
+    <script type="text/javascript" src="JCode/toolbar.js"></script>
+    <script type="text/javascript" src="JCode/jquery-ui.js"></script>
+    <script type="text/javascript" src="JCode/uploadPanel.js"></script>
+	<script type="text/javascript" src="JCode/downloadPanel.js"></script>
+     <!--<script type="text/javascript" src="JCode/jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="JCode/KelpJSONView.js"></script>
+    <script type="text/javascript" src="JCode/bootstrap.js"></script> -->
+
+     <link href="css/site.css" rel="stylesheet" type="text/css" />
+    <style>
+        #fileInfos
+        {
+            max-height:70px;
+            height:70px;
+            box-sizing:border-box;
+        }
+    </style>
+</head>
+
+<body  >
+        <input id="baseAddress" type="hidden" value="" />
+        <input id="currentAddress" type="hidden" value="" >
+        <div id="header">
+            <div id="toolbar">
+                <div  style="border-style: solid;border-width: 0.5px;width:175px;border-color:silver ; ">
+                    <input type="text" id="newFolder_text" placeholder="new folder" style="border-style:none;position: relative;top: -3px;left:4px;" />
+                    <img id="newFolder_buttom" src="Image/bnewFolder.png" />
+                </div>
+                <div>
+                	<img id="deleteItem_buttom" src="Image/delete.png" title="Delete" />
+                	<img id="upload_buttom" src="Image/bupload.png" title="upload" />
+                </div>
+            </div>
+            <div id="url-div" >
+                <div id="home"></div>
+                <div id="navbox">
+                		
+                </div>
+            </div>
+        </div>    
+        <div id="wrapper">
+           
+        </div>
+        
+       <div id="upload_div">
+       		<div style="border-bottom-style: solid;border-bottom-width: 1.5px;height: 17px;margin-bottom:5px;">
+       			<img id="upload_close_buttom" src="Image/close.png" style="float:right" />
+       			
+			</div>
+			<div id="upload_div_btn">
+       		     	<input type="file" id="upload_file" name="upload_file" />
+			</div>
+			<div id="fileInfos">
+					<span id="fileName">fileName:</span><br/>
+					<span id="fileSize">fileSize:</span><br/>
+					<span id="fileType">fileType:</span><br/>
+			</div>
+			
+			<div id="parentProgress">
+				<div id="progressBar" ></div>
+			</div>
+			<div style="width:100%;text-align: center;margin-top:-8px">
+			<p id="progressPercent">0%</p>
+			</div>
+			<div style="width:100%">
+					<input type="button" value="uploadFile" id="uploadFile_button" disabled="disabled" />		
+			</div>
+		</div>
+		   
+		<div id="blackCurtain" >
+		
+		</div>
+		
+		<div id="loadProgress" >
+			<img src="Image/loadProgress.gif"/>
+			<span>Loading please wait . . . </span>
+		</div>
+		
+		<div id="timeoutPanle">
+			<img src="Image/error.png"/>
+			<span><strong> your session or token are expired please login again</strong> </span>
+		</div>
+</body>
+</html>

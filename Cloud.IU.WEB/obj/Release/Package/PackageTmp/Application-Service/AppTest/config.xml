@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<applicationConfig>
+  <appconfig startpage="first.aspx"  title="AppTest" />
+    
+  <image src="images.jpg" />
+  
+</applicationConfig>
